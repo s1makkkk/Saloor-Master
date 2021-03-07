@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using ECS;
 using Leopotam.Ecs;
+
 public class LevelProps : MonoBehaviour
 {
     private EcsEntity Entity;

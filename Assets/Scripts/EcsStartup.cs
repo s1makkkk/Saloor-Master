@@ -27,11 +27,13 @@ sealed class EcsStartup : MonoBehaviour
         SystemsUpdate.Add(new ECS.Systems.InputSystem());
         SystemsUpdate.Add(new ECS.Systems.MovementPlayerSystem());
         SystemsUpdate.Add(new ECS.Systems.MovementSystem());
-        SystemsUpdate.Add(new ECS.Systems.ShootSystem());
+        SystemsUpdate.Add(new ECS.Systems.ShootPlayerSystem());
         SystemsUpdate.Add(new ECS.Systems.GeneratorSystem());
+        SystemsUpdate.Add(new ECS.Systems.ShootSystem());
 
         //Events:
         SystemsUpdate.Add(new ECS.Systems.Events.DestroyPlayerEventSystem());
+       // SystemsUpdate.Add(new ECS.Systems.Events.HitEventSystem());
 
 
         // register one-frame components (order is important), for example:

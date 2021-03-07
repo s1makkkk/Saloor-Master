@@ -9,5 +9,6 @@ namespace ECS.Components
         public float speed;
         public Vector2 Direction;
         public float RotationOffset;
+        public bool isLocal;
     }
 }

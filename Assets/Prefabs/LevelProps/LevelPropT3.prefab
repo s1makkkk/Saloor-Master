@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6838491039938696744}
   - component: {fileID: 6838491039938696745}
-  - component: {fileID: 6838491039938696759}
   - component: {fileID: -4643306549819533348}
+  - component: {fileID: 6838491039938696759}
   m_Layer: 0
   m_Name: LevelPropT3
   m_TagString: Untagged
@@ -85,18 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6838491039938696759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6838491039938696746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8631fa448f29f634a824a2264dff3854, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &-4643306549819533348
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -144,3 +132,15 @@ PolygonCollider2D:
       - {x: 0.13, y: -0.545}
       - {x: 0.37, y: -0.465}
       - {x: 0.47, y: -0.405}
+--- !u!114 &6838491039938696759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6838491039938696746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8631fa448f29f634a824a2264dff3854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
