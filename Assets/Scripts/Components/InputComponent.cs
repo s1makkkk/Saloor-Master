@@ -8,6 +8,7 @@ namespace ECS.Components
     {
         public Vector2 Direction;
         public bool isShoot;
+        public bool PressAnyKey;
 
     }
 }

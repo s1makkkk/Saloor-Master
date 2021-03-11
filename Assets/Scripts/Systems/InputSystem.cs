@@ -16,6 +16,7 @@ namespace ECS.Systems
         {
 
             Vector2 Dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+            //Vector2 Dir = Input.acceleration;
             bool MouseDown = false;
             if(Input.GetMouseButtonDown(0))
             {
@@ -31,6 +32,7 @@ namespace ECS.Systems
                 ref Components.InputComponent input = ref filter.Get1(i);
                 input.Direction = Dir;
                 input.isShoot = MouseDown;
+                input.PressAnyKey = MouseDown;
             }
         }
     }

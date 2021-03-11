@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using ECS;
 using Leopotam.Ecs;
-public class Bullet : MonoBehaviour
+public class Bullet : MonoEntity
 {
     //public Vector2 Dir { get; set; }
 
 
     [SerializeField] private Vector2 Direction;
     [SerializeField] private float Speed;
-    [SerializeField] GameObject Particle;
-    EcsEntity Entity;
+    [SerializeField] private GameObject Particle;
+    [SerializeField] private float Delay;
+
+    [HideInInspector] public string Sender;
 
     void Start()
     {
@@ -21,18 +23,18 @@ public class Bullet : MonoBehaviour
         movement.self = transform;
         movement.speed = Speed;
         movement.isLocal = true;
-    }
 
+        ref ECS.Components.DelayComponent delay = ref Entity.Get<ECS.Components.DelayComponent>();
+        delay.TimeDelay = Delay;
+
+        Entity.Get<ECS.Components.Flags.BulletFlag>();
+
+        Entity.Get<ECS.Components.SenderComponent>().Sender = Sender;
+    }
+    //TODO: Здесь срочно нжен рефакторинг.
     public void SetDirection(Vector2 dir)
     {
         Direction = dir;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-       ref ECS.Components.Events.HitEvent _event = ref Entity.Get<ECS.Components.Events.HitEvent>();
-        _event.Hit = collision.gameObject;
-        _event.self = gameObject;
-        _event.Particle = Particle;
-    }
 }

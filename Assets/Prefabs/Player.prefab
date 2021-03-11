@@ -10,11 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 377889941898844183}
   - component: {fileID: 377889941898844182}
-  - component: {fileID: 377889941898844181}
   - component: {fileID: 760703943130107431}
+  - component: {fileID: 95118139}
+  - component: {fileID: 2304387663392643628}
+  - component: {fileID: 377889941898844181}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,24 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &377889941898844181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377889941898844180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5ce45ef211aa2045943964d319e7061, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 10
-  bullet: {fileID: 0}
-  Damage: 0
-  Points:
-  - {fileID: 8210282408595225809}
-  - {fileID: 2258730195323475510}
 --- !u!60 &760703943130107431
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -152,6 +136,57 @@ PolygonCollider2D:
       - {x: 0.32, y: -0.48999998}
       - {x: 0.41, y: -0.32}
       - {x: 0.41, y: -0.22}
+--- !u!50 &95118139
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377889941898844180}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!114 &2304387663392643628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377889941898844180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44dd0341cc062ad419327c879dc23e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &377889941898844181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377889941898844180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ce45ef211aa2045943964d319e7061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 10
+  bullet: {fileID: 975256845743923379, guid: 1a749e22af9d4774f940a612ce4bb5b0, type: 3}
+  Damage: 20
+  Points:
+  - {fileID: 8210282408595225809}
+  - {fileID: 2258730195323475510}
 --- !u!1 &4278494878716071249
 GameObject:
   m_ObjectHideFlags: 0

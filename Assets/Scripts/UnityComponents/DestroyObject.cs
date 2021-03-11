@@ -6,7 +6,7 @@ using Leopotam.Ecs;
 public class DestroyObject : MonoBehaviour
 {
     [SerializeField] private  float TimeDelay;
-
+    bool isEntity = false;
     void Start()
     {
         Destroy(gameObject, TimeDelay);

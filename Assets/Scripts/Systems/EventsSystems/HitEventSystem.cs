@@ -12,15 +12,16 @@ namespace ECS.Systems.Events
 
         void IEcsRunSystem.Run()
         {
-            foreach(var i in filter)
+            foreach (var i in filter)
             {
-                
-                Components.Events.HitEvent Event = filter.Get1(1);
+                ref Components.Events.HitEvent Event = ref filter.Get1(i);
+
                 Object.Destroy(Event.Hit);
-                Object.Destroy(Event.self);
-                Object.Instantiate(Event.Particle, Event.Position, Quaternion.identity);
+                Object.Instantiate(Event.Particle,Event.Position,Quaternion.identity);
+                filter.GetEntity(i).Destroy();
 
             }
+
         }
     }
 }

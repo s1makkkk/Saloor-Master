@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.Saloor-Master.iml
+# Datasource local storage ignored files
+/../../../../../../../:\MAKC\UnityProjetcs\Saloor-Master\.idea\.idea.Saloor-Master\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
