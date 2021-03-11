@@ -3,9 +3,8 @@ using UnityEngine;
 namespace ECS.Components.Events
 {
 
-    struct DestroyPlayerEvent
+    struct DestroyEntityEvent
     {
         public GameObject gameObject;
-        public GameObject ParticleEffect;
     }
 }

@@ -34,6 +34,7 @@ namespace ECS.Systems
             {
                 GameObject bullet = GameObject.Instantiate(shootComponent.Prefab,
                     shootComponent.Point[i].transform.position,Quaternion.identity);
+                bullet.GetComponent<Bullet>().Sender = "Player";
             }
 
         }

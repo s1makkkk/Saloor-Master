@@ -5,7 +5,7 @@ using ECS;
 using Leopotam.Ecs;
 
 
-public class Player : MonoBehaviour
+public class Player : MonoEntity
 {
     [Header("Movement")]
     [SerializeField] private float Speed;
@@ -17,8 +17,6 @@ public class Player : MonoBehaviour
 
     [Header("Effects")]
     [SerializeField] private GameObject particle;
-
-    private EcsEntity Entity;
     void Start()
     {
 
@@ -28,7 +26,7 @@ public class Player : MonoBehaviour
         ref ECS.Components.MovementPlayerComponent movement = ref Entity.Get<ECS.Components.MovementPlayerComponent>();
         movement.self = transform;
         movement.Speed = Speed;
-        
+
         ref ECS.Components.ShootComponent shootComponent = ref Entity.Get<ECS.Components.ShootComponent>();
         shootComponent.Damage = Damage;
         shootComponent.Point = ConvertToPoints(Points);
@@ -36,19 +34,26 @@ public class Player : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collision!!");
+
         if (!collision.gameObject.CompareTag("Bullet"))
         {
-            ref ECS.Components.Events.DestroyPlayerEvent Event = ref Entity.Get<ECS.Components.Events.DestroyPlayerEvent>();
+            Debug.Log("Collision!!");
+            ref ECS.Components.Events.DestroyEntityEvent Event = ref Entity.Get<ECS.Components.Events.DestroyEntityEvent>();
             Event.gameObject = gameObject;
-            Event.ParticleEffect = particle;
+        }
+        if (collision.gameObject.CompareTag("Bullet") && collision.gameObject.GetComponent<Bullet>().Sender=="Enemy")
+        {
+            Debug.Log("Collision!!");
+            ref ECS.Components.Events.DestroyEntityEvent Event = ref Entity.Get<ECS.Components.Events.DestroyEntityEvent>();
+            Instantiate(particle, transform.position, Quaternion.identity);
+            Event.gameObject = gameObject;
         }
     }
 
     private ShootPoint[] ConvertToPoints(Transform[] t)
     {
-        ShootPoint[] shootPoint = new ShootPoint[t.Length]; 
-        for(int i = 0;i<t.Length;i++)
+        ShootPoint[] shootPoint = new ShootPoint[t.Length];
+        for (int i = 0; i < t.Length; i++)
         {
             shootPoint[i] = new ShootPoint(t[i], Vector2.up);
         }

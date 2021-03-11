@@ -5,6 +5,7 @@ namespace ECS.Components
     {
         public float TimeDelay;
         public float Timer;
+        public bool TimeOut;
     }
 
 }

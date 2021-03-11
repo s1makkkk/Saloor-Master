@@ -15,7 +15,7 @@ namespace ECS.Systems
                 GameObject bullet = GameObject.Instantiate(shootComponent.Prefab,
                     shootComponent.Point[i].transform.position, shootComponent.Point[i].transform.rotation);
                 bullet.GetComponent<Bullet>().SetDirection(shootComponent.Point[i].Direction);
-                Debug.Log(shootComponent.Point[i].Direction.ToString());
+                bullet.GetComponent<Bullet>().Sender = "Enemy";
             }
 
         }
@@ -26,14 +26,13 @@ namespace ECS.Systems
             {
 
                 ref Components.ShootComponent shootComponent = ref filter.Get1(i);
-                ref Components.DelayComponent Delay = ref filter.Get2(i);
-
-                Delay.Timer += Time.deltaTime;
-                if(Delay.Timer>=Delay.TimeDelay)
+                ref Components.DelayComponent delay = ref filter.Get2(i);
+                if (delay.TimeOut)
                 {
-                    Delay.Timer = 0;
                     Shoot(ref shootComponent);
+                    delay.TimeOut = false;
                 }
+
             }
 
         }

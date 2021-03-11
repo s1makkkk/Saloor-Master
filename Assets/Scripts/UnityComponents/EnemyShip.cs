@@ -6,15 +6,13 @@ using ECS;
 using Leopotam.Ecs;
 
 
-public class EnemyShip : MonoBehaviour
+public class EnemyShip : MonoEntity
 {
     [Header("Shoot")]
     [SerializeField] private GameObject bullet;
     [SerializeField] private float Damage;
     [SerializeField] private ShootPoint[] Points;
 
-
-    private EcsEntity Entity;
 
     void Start()
     {
@@ -23,8 +21,8 @@ public class EnemyShip : MonoBehaviour
         ref ECS.Components.MovementComponent movement = ref Entity.Get<ECS.Components.MovementComponent>();
         movement.Direction = Vector2.down;
         movement.self = transform;
-        movement.speed = 0.5f;
-        movement.RotationOffset = Random.Range(-10, 10);
+        movement.speed = Random.Range(0.4f, 2);
+        movement.RotationOffset = Random.Range(-20, 20);
 
         ref ECS.Components.ShootComponent shootComponent = ref Entity.Get<ECS.Components.ShootComponent>();
         shootComponent.Damage = 0;

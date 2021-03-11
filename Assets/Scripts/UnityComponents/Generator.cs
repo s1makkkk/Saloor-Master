@@ -4,7 +4,7 @@ using UnityEngine;
 using ECS;
 using Leopotam.Ecs;
 
-public class Generator : MonoBehaviour
+public class Generator : MonoEntity
 {
 
     [SerializeField] private GameObject[] Props;
@@ -12,8 +12,6 @@ public class Generator : MonoBehaviour
     [SerializeField] private float TimeDelay;
     [SerializeField] private float minTimeDelay;
     [SerializeField] private float Complexity;
-
-    private EcsEntity Entity;
     void Start()
     {
         Entity = EcsStartup.World.NewEntity();

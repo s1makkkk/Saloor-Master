@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 975256845743923382}
   - component: {fileID: 975256845743923377}
   - component: {fileID: 1093971263691503991}
+  - component: {fileID: -5868328654523342893}
   - component: {fileID: 975256845743923376}
   m_Layer: 0
   m_Name: Bullet
@@ -111,6 +112,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 1.19}
   m_EdgeRadius: 0
+--- !u!50 &-5868328654523342893
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975256845743923379}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!114 &975256845743923376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,4 +147,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Direction: {x: 0, y: 1}
   Speed: 10
-  Particle: {fileID: 0}
+  Particle: {fileID: 6011545966929972937, guid: bba54725217ada541ba15c8b2a2809ed,
+    type: 3}
+  Sender: 
