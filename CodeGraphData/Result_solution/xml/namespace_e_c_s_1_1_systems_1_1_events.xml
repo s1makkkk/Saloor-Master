@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_e_c_s_1_1_systems_1_1_events" kind="namespace">
+    <compoundname>ECS::Systems::Events</compoundname>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event" prot="public">ECS::Systems::Events::CollisionBulletEvent</innerclass>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_player_event" prot="public">ECS::Systems::Events::CollisionPlayerEvent</innerclass>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system" prot="public">ECS::Systems::Events::DestroyEntityEventSystem</innerclass>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system" prot="public">ECS::Systems::Events::HitEventSystem</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

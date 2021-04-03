@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>LeopotamGroup::Globals::Service&lt; T &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4_1a518bf0e036c3b50be960a4185e1d07de" prot="private" static="yes" mutable="no">
+        <type>T</type>
+        <definition>T LeopotamGroup.Globals.Service&lt; T &gt;._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Service.cs" line="15" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Service.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4_1a4b24a3737ec1355eb95a956f48eb96a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T LeopotamGroup.Globals.Service&lt; T &gt;.Get</definition>
+        <argsstring>(bool createIfNotExists=false)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>bool</type>
+          <declname>createIfNotExists</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Gets global instance of T type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>createIfNotExists</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If true and instance not exists - new instance will be created.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Service.cs" line="22" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Service.cs" bodystart="22" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4_1a8bd00d3ce4259b59bba976331e1a99d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LeopotamGroup.Globals.Service&lt; T &gt;.Set</definition>
+        <argsstring>(T instance)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>T</type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+<para>Sets global instance of T type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>instance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New instance of T type.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Service.cs" line="37" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Service.cs" bodystart="37" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Service - Service locator wrapper. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Service.cs" line="14" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Service.cs" bodystart="14" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4_1a518bf0e036c3b50be960a4185e1d07de" prot="private" virt="non-virtual"><scope>LeopotamGroup::Globals::Service&lt; T &gt;</scope><name>_instance</name></member>
+      <member refid="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4_1a4b24a3737ec1355eb95a956f48eb96a0" prot="public" virt="non-virtual"><scope>LeopotamGroup::Globals::Service&lt; T &gt;</scope><name>Get</name></member>
+      <member refid="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4_1a8bd00d3ce4259b59bba976331e1a99d2" prot="public" virt="non-virtual"><scope>LeopotamGroup::Globals::Service&lt; T &gt;</scope><name>Set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

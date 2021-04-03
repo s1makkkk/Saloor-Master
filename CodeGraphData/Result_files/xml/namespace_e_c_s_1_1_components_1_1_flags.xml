@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_e_c_s_1_1_components_1_1_flags" kind="namespace">
+    <compoundname>ECS::Components::Flags</compoundname>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_flags_1_1_bullet_flag" prot="public">ECS::Components::Flags::BulletFlag</innerclass>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_flags_1_1_player_flag" prot="public">ECS::Components::Flags::PlayerFlag</innerclass>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_flags_1_1_level_props_flag" prot="public">ECS::Components::Flags::LevelPropsFlag</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Flags/Flags.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

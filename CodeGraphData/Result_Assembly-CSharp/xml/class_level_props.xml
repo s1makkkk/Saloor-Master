@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_level_props" kind="class" prot="public">
+    <compoundname>LevelProps</compoundname>
+    <basecompoundref refid="class_mono_entity" prot="public" virt="non-virtual">MonoEntity</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_level_props_1a449944d4ab084479d3c10ac1cd2f4eeb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LevelProps.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/LevelProps.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/LevelProps.cs" bodystart="10" bodyend="20"/>
+        <references refid="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" compoundref="_mono_entity_8cs" startline="8">MonoEntity.Entity</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="96">
+        <label>MonoEntity</label>
+        <link refid="class_mono_entity"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>LevelProps</label>
+        <link refid="class_level_props"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="99">
+        <label>MonoEntity</label>
+        <link refid="class_mono_entity"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>LevelProps</label>
+        <link refid="class_level_props"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/LevelProps.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/LevelProps.cs" bodystart="7" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" prot="public" virt="non-virtual"><scope>LevelProps</scope><name>Entity</name></member>
+      <member refid="class_level_props_1a449944d4ab084479d3c10ac1cd2f4eeb" prot="private" virt="non-virtual"><scope>LevelProps</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

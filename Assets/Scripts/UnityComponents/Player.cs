@@ -37,7 +37,7 @@ public class Player : MonoEntity
     private ShootPoint[] ConvertToPoints(Transform[] t)
     {
         ShootPoint[] shootPoint = new ShootPoint[t.Length];
-        for (int i = 0; i < t.Length; i++)
+        for (var i = 0; i < t.Length; i++)
         {
             shootPoint[i] = new ShootPoint(t[i], Vector2.up);
         }

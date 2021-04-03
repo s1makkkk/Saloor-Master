@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_score_component_8cs" kind="file">
+    <compoundname>ScoreComponent.cs</compoundname>
+    <innerclass refid="struct_client_1_1_score_component" prot="public">Client::ScoreComponent</innerclass>
+    <innernamespace refid="namespace_client">Client</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_client" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Client<sp/>{</highlight></codeline>
+<codeline lineno="2" refid="struct_client_1_1_score_component" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_client_1_1_score_component" kindref="compound">ScoreComponent</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>add<sp/>your<sp/>data<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/UI/ScoreComponent.cs"/>
+  </compounddef>
+</doxygen>

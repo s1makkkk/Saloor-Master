@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_fbe34e60f1159d1389b554c4c559cf06" kind="dir">
+    <compoundname>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems</compoundname>
+    <innerdir refid="dir_2a3a7815bfaed77f7b4ae7d79b6bf39c">D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems</innerdir>
+    <innerfile refid="_delay_system_8cs">DelaySystem.cs</innerfile>
+    <innerfile refid="_generator_system_8cs">GeneratorSystem.cs</innerfile>
+    <innerfile refid="_input_system_8cs">InputSystem.cs</innerfile>
+    <innerfile refid="_movement_player_system_8cs">MovementPlayerSystem.cs</innerfile>
+    <innerfile refid="_movement_system_8cs">MovementSystem.cs</innerfile>
+    <innerfile refid="_shoot_player_system_8cs">ShootPlayerSystem.cs</innerfile>
+    <innerfile refid="_shoot_system_8cs">ShootSystem.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/"/>
+  </compounddef>
+</doxygen>

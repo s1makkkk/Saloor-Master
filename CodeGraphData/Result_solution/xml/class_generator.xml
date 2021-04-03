@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_generator" kind="class" prot="public">
+    <compoundname>Generator</compoundname>
+    <basecompoundref refid="class_mono_entity" prot="public" virt="non-virtual">MonoEntity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_generator_1aa128480fd3d6cbfbcc60948cc5622a54" prot="private" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] Generator.Props</definition>
+        <argsstring></argsstring>
+        <name>Props</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_generator_1a93f4ee09949f9db76434b56449812c95" compoundref="_generator_8cs" startline="15" endline="23">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_generator_1a28a3f312eb4cf5647148eff46b3c724f" prot="private" static="no" mutable="no">
+        <type>Transform[]</type>
+        <definition>Transform [] Generator.Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" line="11" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_generator_1a93f4ee09949f9db76434b56449812c95" compoundref="_generator_8cs" startline="15" endline="23">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_generator_1a5b332659e9747f4d583f407e7c7d119f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Generator.TimeDelay</definition>
+        <argsstring></argsstring>
+        <name>TimeDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" line="12" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_generator_1a93f4ee09949f9db76434b56449812c95" compoundref="_generator_8cs" startline="15" endline="23">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_generator_1a7c662294052b2d5a1585c27ebd6ee42e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Generator.minTimeDelay</definition>
+        <argsstring></argsstring>
+        <name>minTimeDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" line="13" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generator_1aeaaadd4f3217c7a8480b350bc740ebf7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Generator.Complexity</definition>
+        <argsstring></argsstring>
+        <name>Complexity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" line="14" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_e_c_s_1_1_systems_1_1_generator_system_1ae5da1bffbd652fd1fa8f746200fd3a39" compoundref="_generator_system_8cs" startline="16" endline="40">ECS.Systems.GeneratorSystem.Run</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_generator_1a93f4ee09949f9db76434b56449812c95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generator.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" line="15" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" bodystart="15" bodyend="23"/>
+        <references refid="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" compoundref="_mono_entity_8cs" startline="8">MonoEntity.Entity</references>
+        <references refid="class_generator_1a28a3f312eb4cf5647148eff46b3c724f" compoundref="_generator_8cs" startline="11">Points</references>
+        <references refid="class_generator_1aa128480fd3d6cbfbcc60948cc5622a54" compoundref="_generator_8cs" startline="10">Props</references>
+        <references refid="class_generator_1a5b332659e9747f4d583f407e7c7d119f" compoundref="_generator_8cs" startline="12">TimeDelay</references>
+        <references refid="class_generator_1abee7c39ad0b315bf80d9cce9b0686ce0" compoundref="_generator_8cs" startline="25" endline="33">TransformToVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_generator_1abee7c39ad0b315bf80d9cce9b0686ce0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2[]</type>
+        <definition>Vector2 [] Generator.TransformToVector</definition>
+        <argsstring>(Transform[] t)</argsstring>
+        <name>TransformToVector</name>
+        <param>
+          <type>Transform[]</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" line="25" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" bodystart="25" bodyend="33"/>
+        <referencedby refid="class_generator_1a93f4ee09949f9db76434b56449812c95" compoundref="_generator_8cs" startline="15" endline="23">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="69">
+        <label>MonoEntity</label>
+        <link refid="class_mono_entity"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Generator</label>
+        <link refid="class_generator"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="72">
+        <label>MonoEntity</label>
+        <link refid="class_mono_entity"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Generator</label>
+        <link refid="class_generator"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs" bodystart="7" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_generator_1aeaaadd4f3217c7a8480b350bc740ebf7" prot="private" virt="non-virtual"><scope>Generator</scope><name>Complexity</name></member>
+      <member refid="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" prot="public" virt="non-virtual"><scope>Generator</scope><name>Entity</name></member>
+      <member refid="class_generator_1a7c662294052b2d5a1585c27ebd6ee42e" prot="private" virt="non-virtual"><scope>Generator</scope><name>minTimeDelay</name></member>
+      <member refid="class_generator_1a28a3f312eb4cf5647148eff46b3c724f" prot="private" virt="non-virtual"><scope>Generator</scope><name>Points</name></member>
+      <member refid="class_generator_1aa128480fd3d6cbfbcc60948cc5622a54" prot="private" virt="non-virtual"><scope>Generator</scope><name>Props</name></member>
+      <member refid="class_generator_1a93f4ee09949f9db76434b56449812c95" prot="private" virt="non-virtual"><scope>Generator</scope><name>Start</name></member>
+      <member refid="class_generator_1a5b332659e9747f4d583f407e7c7d119f" prot="private" virt="non-virtual"><scope>Generator</scope><name>TimeDelay</name></member>
+      <member refid="class_generator_1abee7c39ad0b315bf80d9cce9b0686ce0" prot="private" virt="non-virtual"><scope>Generator</scope><name>TransformToVector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

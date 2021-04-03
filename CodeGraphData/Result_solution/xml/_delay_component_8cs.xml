@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_delay_component_8cs" kind="file">
+    <compoundname>DelayComponent.cs</compoundname>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_delay_component" prot="public">ECS::Components::DelayComponent</innerclass>
+    <innernamespace refid="namespace_e_c_s_1_1_components">ECS::Components</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ECS.Components</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="4" refid="struct_e_c_s_1_1_components_1_1_delay_component" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_e_c_s_1_1_components_1_1_delay_component" kindref="compound">DelayComponent</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="6" refid="struct_e_c_s_1_1_components_1_1_delay_component_1a2d9626752054ba02f38c3086066e04cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_e_c_s_1_1_components_1_1_delay_component_1a2d9626752054ba02f38c3086066e04cb" kindref="member">TimeDelay</ref>;</highlight></codeline>
+<codeline lineno="7" refid="struct_e_c_s_1_1_components_1_1_delay_component_1a272f4f9dccf5a45a03cc6e6b62164708" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_e_c_s_1_1_components_1_1_delay_component_1a272f4f9dccf5a45a03cc6e6b62164708" kindref="member">Timer</ref>;</highlight></codeline>
+<codeline lineno="8" refid="struct_e_c_s_1_1_components_1_1_delay_component_1ab59197be201ef422fa8f3bd1ed76f166" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_e_c_s_1_1_components_1_1_delay_component_1ab59197be201ef422fa8f3bd1ed76f166" kindref="member">TimeOut</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/DelayComponent.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_shoot_component" kind="struct" prot="public">
+    <compoundname>ECS::Components::ShootComponent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_shoot_component_1afa21c6933d96562ec7e2361f3d686997" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_shoot_point" kindref="compound">ShootPoint</ref>[]</type>
+        <definition>ShootPoint [] ECS.Components.ShootComponent.Point</definition>
+        <argsstring></argsstring>
+        <name>Point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/ShootComponent.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/ShootComponent.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_shoot_component_1aa84df902c168e42f92bb8e19f1308ed9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ECS.Components.ShootComponent.Damage</definition>
+        <argsstring></argsstring>
+        <name>Damage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/ShootComponent.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/ShootComponent.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_shoot_component_1aecab2cb578e785a387623654ef4dab35" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ECS.Components.ShootComponent.Prefab</definition>
+        <argsstring></argsstring>
+        <name>Prefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/ShootComponent.cs" line="11" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/ShootComponent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="149">
+        <label>ECS.Components.ShootComponent</label>
+        <link refid="struct_e_c_s_1_1_components_1_1_shoot_component"/>
+        <childnode refid="150" relation="usage">
+          <edgelabel>Point</edgelabel>
+        </childnode>
+      </node>
+      <node id="150">
+        <label>ShootPoint</label>
+        <link refid="struct_shoot_point"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/ShootComponent.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/ShootComponent.cs" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="struct_e_c_s_1_1_components_1_1_shoot_component_1aa84df902c168e42f92bb8e19f1308ed9" prot="public" virt="non-virtual"><scope>ECS::Components::ShootComponent</scope><name>Damage</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_shoot_component_1afa21c6933d96562ec7e2361f3d686997" prot="public" virt="non-virtual"><scope>ECS::Components::ShootComponent</scope><name>Point</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_shoot_component_1aecab2cb578e785a387623654ef4dab35" prot="public" virt="non-virtual"><scope>ECS::Components::ShootComponent</scope><name>Prefab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_destroy_entity_event_8cs" kind="file">
+    <compoundname>DestroyEntityEvent.cs</compoundname>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event" prot="public">ECS::Components::Events::DestroyEntityEvent</innerclass>
+    <innernamespace refid="namespace_e_c_s_1_1_components_1_1_events">ECS::Components::Events</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Leopotam.Ecs;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ECS.Components.Events</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event" kindref="compound">DestroyEntityEvent</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event_1a86b933dc66ad98fa64ab4ce8d6712979" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event_1a86b933dc66ad98fa64ab4ce8d6712979" kindref="member">gameObject</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/DestroyEntityEvent.cs"/>
+  </compounddef>
+</doxygen>

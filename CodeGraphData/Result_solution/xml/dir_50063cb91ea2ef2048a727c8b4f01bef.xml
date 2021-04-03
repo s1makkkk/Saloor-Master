@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_50063cb91ea2ef2048a727c8b4f01bef" kind="dir">
+    <compoundname>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components</compoundname>
+    <innerdir refid="dir_ace1a07dc147663041a8506477905596">D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events</innerdir>
+    <innerdir refid="dir_8a496d04e302a690f20628ff70a06c0c">D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Flags</innerdir>
+    <innerdir refid="dir_8160695e74712bc18f7a39166375ab87">D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/UI</innerdir>
+    <innerfile refid="_bullet_sender_component_8cs">BulletSenderComponent.cs</innerfile>
+    <innerfile refid="_delay_component_8cs">DelayComponent.cs</innerfile>
+    <innerfile refid="_generator_component_8cs">GeneratorComponent.cs</innerfile>
+    <innerfile refid="_input_component_8cs">InputComponent.cs</innerfile>
+    <innerfile refid="_movement_component_8cs">MovementComponent.cs</innerfile>
+    <innerfile refid="_movement_player_component_8cs">MovementPlayerComponent.cs</innerfile>
+    <innerfile refid="_shoot_component_8cs">ShootComponent.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/"/>
+  </compounddef>
+</doxygen>

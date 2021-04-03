@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_physics2_d_emitter" kind="class" prot="public">
+    <compoundname>Physics2DEmitter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_physics2_d_emitter_1a549035aa9125e4f1c4bef23c87fd1f71" prot="private" static="no" mutable="no">
+        <type><ref refid="class_mono_entity" kindref="compound">MonoEntity</ref></type>
+        <definition>MonoEntity Physics2DEmitter.monoEntity</definition>
+        <argsstring></argsstring>
+        <name>monoEntity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Physics2DEmitter.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Physics2DEmitter.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_physics2_d_emitter_1ab44a598b1d2514eb327bcc6b98325160" compoundref="_physics2_d_emitter_8cs" startline="9" endline="12">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_physics2_d_emitter_1ab44a598b1d2514eb327bcc6b98325160" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Physics2DEmitter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Physics2DEmitter.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Physics2DEmitter.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_physics2_d_emitter_1a549035aa9125e4f1c4bef23c87fd1f71" compoundref="_physics2_d_emitter_8cs" startline="8">monoEntity</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics2_d_emitter_1a263ef2b356a8479dfb446fbaaeb8e448" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Physics2DEmitter.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D collision)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <param>
+          <type>Collision2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Physics2DEmitter.cs" line="13" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Physics2DEmitter.cs" bodystart="13" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="126">
+        <label>Physics2DEmitter</label>
+        <link refid="class_physics2_d_emitter"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="130">
+        <label>MonoEntity</label>
+        <link refid="class_mono_entity"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>Physics2DEmitter</label>
+        <link refid="class_physics2_d_emitter"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+        <childnode refid="130" relation="usage">
+          <edgelabel>monoEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="129">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Physics2DEmitter.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Physics2DEmitter.cs" bodystart="6" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_physics2_d_emitter_1a549035aa9125e4f1c4bef23c87fd1f71" prot="private" virt="non-virtual"><scope>Physics2DEmitter</scope><name>monoEntity</name></member>
+      <member refid="class_physics2_d_emitter_1a263ef2b356a8479dfb446fbaaeb8e448" prot="private" virt="non-virtual"><scope>Physics2DEmitter</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_physics2_d_emitter_1ab44a598b1d2514eb327bcc6b98325160" prot="private" virt="non-virtual"><scope>Physics2DEmitter</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

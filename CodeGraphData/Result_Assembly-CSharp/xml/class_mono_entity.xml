@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mono_entity" kind="class" prot="public">
+    <compoundname>MonoEntity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_bullet" prot="public" virt="non-virtual">Bullet</derivedcompoundref>
+    <derivedcompoundref refid="class_enemy_ship" prot="public" virt="non-virtual">EnemyShip</derivedcompoundref>
+    <derivedcompoundref refid="class_generator" prot="public" virt="non-virtual">Generator</derivedcompoundref>
+    <derivedcompoundref refid="class_level_props" prot="public" virt="non-virtual">LevelProps</derivedcompoundref>
+    <derivedcompoundref refid="class_player" prot="public" virt="non-virtual">Player</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" prot="public" static="no" mutable="no">
+        <type>EcsEntity</type>
+        <definition>EcsEntity MonoEntity.Entity</definition>
+        <argsstring></argsstring>
+        <name>Entity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/MonoEntity.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/MonoEntity.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_level_props_1a449944d4ab084479d3c10ac1cd2f4eeb" compoundref="_level_props_8cs" startline="10" endline="20">LevelProps.Start</referencedby>
+        <referencedby refid="class_generator_1a93f4ee09949f9db76434b56449812c95" compoundref="_generator_8cs" startline="15" endline="23">Generator.Start</referencedby>
+        <referencedby refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" compoundref="_player_8cs" startline="17" endline="33">Player.Start</referencedby>
+        <referencedby refid="class_enemy_ship_1adc231dfdd96b8aabadddda16445c4510" compoundref="_enemy_ship_8cs" startline="17" endline="35">EnemyShip.Start</referencedby>
+        <referencedby refid="class_bullet_1a4862c6392cf36c5c20f2ace5b1d8d484" compoundref="_bullet_8cs" startline="18" endline="32">Bullet.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="105">
+        <label>MonoEntity</label>
+        <link refid="class_mono_entity"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>LevelProps</label>
+        <link refid="class_level_props"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>Generator</label>
+        <link refid="class_generator"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>Bullet</label>
+        <link refid="class_bullet"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>EnemyShip</label>
+        <link refid="class_enemy_ship"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="111">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="112">
+        <label>MonoEntity</label>
+        <link refid="class_mono_entity"/>
+        <childnode refid="113" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/MonoEntity.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/MonoEntity.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" prot="public" virt="non-virtual"><scope>MonoEntity</scope><name>Entity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

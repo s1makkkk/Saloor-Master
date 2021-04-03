@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7ded8dc7e864797de57ae507c5cdf22b" kind="dir">
+    <compoundname>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents</compoundname>
+    <innerfile refid="_bullet_8cs">Bullet.cs</innerfile>
+    <innerfile refid="_destroy_object_8cs">DestroyObject.cs</innerfile>
+    <innerfile refid="_enemy_ship_8cs">EnemyShip.cs</innerfile>
+    <innerfile refid="_generator_8cs">Generator.cs</innerfile>
+    <innerfile refid="_level_props_8cs">LevelProps.cs</innerfile>
+    <innerfile refid="_mono_entity_8cs">MonoEntity.cs</innerfile>
+    <innerfile refid="_physics2_d_emitter_8cs">Physics2DEmitter.cs</innerfile>
+    <innerfile refid="_player_8cs">Player.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system" kind="class" prot="public">
+    <compoundname>ECS::Systems::Events::HitEventSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEcsRunSystem</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system_1a2cd51b7234ebb4647dbef41bb1f063d4" prot="private" static="no" mutable="no">
+        <type>readonly EcsWorld</type>
+        <definition>readonly EcsWorld ECS.Systems.Events.HitEventSystem._world</definition>
+        <argsstring></argsstring>
+        <name>_world</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/HitEventSystem.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/HitEventSystem.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system_1af849046c66d7b7214672edbb2e6b5e12" prot="private" static="no" mutable="no">
+        <type>EcsFilter&lt; <ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event" kindref="compound">Components.Events.HitEvent</ref> &gt;</type>
+        <definition>EcsFilter&lt;Components.Events.HitEvent&gt; ECS.Systems.Events.HitEventSystem.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/HitEventSystem.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/HitEventSystem.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system_1a62307d67c40d6ae58b9b43ba8ba29aee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IEcsRunSystem.</type>
+        <definition>void IEcsRunSystem. ECS.Systems.Events.HitEventSystem.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/HitEventSystem.cs" line="13" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/HitEventSystem.cs" bodystart="13" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="82">
+        <label>ECS.Systems.Events.HitEventSystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>IEcsRunSystem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="84">
+        <label>ECS.Systems.Events.HitEventSystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>IEcsRunSystem</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/HitEventSystem.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/HitEventSystem.cs" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system_1a2cd51b7234ebb4647dbef41bb1f063d4" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::HitEventSystem</scope><name>_world</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system_1af849046c66d7b7214672edbb2e6b5e12" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::HitEventSystem</scope><name>filter</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system_1a62307d67c40d6ae58b9b43ba8ba29aee" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::HitEventSystem</scope><name>Run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

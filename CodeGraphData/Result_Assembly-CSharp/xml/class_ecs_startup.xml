@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ecs_startup" kind="class" prot="public">
+    <compoundname>EcsStartup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" prot="public" static="yes" mutable="no">
+        <type>EcsWorld</type>
+        <definition>EcsWorld EcsStartup.World</definition>
+        <argsstring></argsstring>
+        <name>World</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" line="6" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_ecs_startup_1ade2779cc4479f07b2577caa106a76b22" compoundref="_ecs_startup_8cs" startline="21" endline="60">Awake</referencedby>
+        <referencedby refid="class_ecs_startup_1a9dfe93ff6017f15a26fc9e2a992d06a8" compoundref="_ecs_startup_8cs" startline="70" endline="86">OnDestroy</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ecs_startup_1a4c140c04f8619845104891754d1c8fa9" prot="private" static="no" mutable="no">
+        <type>Leopotam.Ecs.Ui.Systems.EcsUiEmitter</type>
+        <definition>Leopotam.Ecs.Ui.Systems.EcsUiEmitter EcsStartup._uiEmitter</definition>
+        <argsstring></argsstring>
+        <name>_uiEmitter</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" prot="private" static="no" mutable="no">
+        <type>EcsSystems</type>
+        <definition>EcsSystems EcsStartup.SystemsUpdate</definition>
+        <argsstring></argsstring>
+        <name>SystemsUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" line="15" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_ecs_startup_1ade2779cc4479f07b2577caa106a76b22" compoundref="_ecs_startup_8cs" startline="21" endline="60">Awake</referencedby>
+        <referencedby refid="class_ecs_startup_1a9dfe93ff6017f15a26fc9e2a992d06a8" compoundref="_ecs_startup_8cs" startline="70" endline="86">OnDestroy</referencedby>
+        <referencedby refid="class_ecs_startup_1a0f96edd23006215fa576cfe734ea7f29" compoundref="_ecs_startup_8cs" startline="65" endline="68">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" prot="private" static="no" mutable="no">
+        <type>EcsSystems</type>
+        <definition>EcsSystems EcsStartup.SystemsFixedUpdate</definition>
+        <argsstring></argsstring>
+        <name>SystemsFixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" line="16" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_ecs_startup_1ade2779cc4479f07b2577caa106a76b22" compoundref="_ecs_startup_8cs" startline="21" endline="60">Awake</referencedby>
+        <referencedby refid="class_ecs_startup_1a9dfe93ff6017f15a26fc9e2a992d06a8" compoundref="_ecs_startup_8cs" startline="70" endline="86">OnDestroy</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ecs_startup_1a2e1c4fe84d0b8e6c97ef136b00f80b24" prot="public" static="no" mutable="no">
+        <type><ref refid="class_game_data" kindref="compound">GameData</ref></type>
+        <definition>GameData EcsStartup.gameData</definition>
+        <argsstring></argsstring>
+        <name>gameData</name>
+        <briefdescription>
+<para>TODO: Нарушается принцип единой ответсвенности, потом исправить!! </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" line="11" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_ecs_startup_1ade2779cc4479f07b2577caa106a76b22" compoundref="_ecs_startup_8cs" startline="21" endline="60">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ecs_startup_1ade2779cc4479f07b2577caa106a76b22" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EcsStartup.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" line="21" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" bodystart="21" bodyend="60"/>
+        <references refid="class_ecs_startup_1a2e1c4fe84d0b8e6c97ef136b00f80b24" compoundref="_ecs_startup_8cs" startline="11">gameData</references>
+        <references refid="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" compoundref="_ecs_startup_8cs" startline="16">SystemsFixedUpdate</references>
+        <references refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" compoundref="_ecs_startup_8cs" startline="15">SystemsUpdate</references>
+        <references refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" compoundref="_ecs_startup_8cs" startline="6">World</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ecs_startup_1a0f96edd23006215fa576cfe734ea7f29" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EcsStartup.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" line="65" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" bodystart="65" bodyend="68"/>
+        <references refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" compoundref="_ecs_startup_8cs" startline="15">SystemsUpdate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ecs_startup_1a9dfe93ff6017f15a26fc9e2a992d06a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EcsStartup.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" line="70" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" bodystart="70" bodyend="86"/>
+        <references refid="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" compoundref="_ecs_startup_8cs" startline="16">SystemsFixedUpdate</references>
+        <references refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" compoundref="_ecs_startup_8cs" startline="15">SystemsUpdate</references>
+        <references refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" compoundref="_ecs_startup_8cs" startline="6">World</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="47">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="46">
+        <label>EcsStartup</label>
+        <link refid="class_ecs_startup"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="50">
+        <label>Ecs</label>
+      </node>
+      <node id="53">
+        <label>Fuck</label>
+        <link refid="class_fuck"/>
+      </node>
+      <node id="51">
+        <label>GameData</label>
+        <link refid="class_game_data"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="53" relation="usage">
+          <edgelabel>fuck</edgelabel>
+        </childnode>
+      </node>
+      <node id="52">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="49">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="48">
+        <label>EcsStartup</label>
+        <link refid="class_ecs_startup"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>_uiEmitter</edgelabel>
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>gameData</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" line="5" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs" bodystart="4" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_ecs_startup_1a4c140c04f8619845104891754d1c8fa9" prot="private" virt="non-virtual"><scope>EcsStartup</scope><name>_uiEmitter</name></member>
+      <member refid="class_ecs_startup_1ade2779cc4479f07b2577caa106a76b22" prot="private" virt="non-virtual"><scope>EcsStartup</scope><name>Awake</name></member>
+      <member refid="class_ecs_startup_1a2e1c4fe84d0b8e6c97ef136b00f80b24" prot="public" virt="non-virtual"><scope>EcsStartup</scope><name>gameData</name></member>
+      <member refid="class_ecs_startup_1a9dfe93ff6017f15a26fc9e2a992d06a8" prot="private" virt="non-virtual"><scope>EcsStartup</scope><name>OnDestroy</name></member>
+      <member refid="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" prot="private" virt="non-virtual"><scope>EcsStartup</scope><name>SystemsFixedUpdate</name></member>
+      <member refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" prot="private" virt="non-virtual"><scope>EcsStartup</scope><name>SystemsUpdate</name></member>
+      <member refid="class_ecs_startup_1a0f96edd23006215fa576cfe734ea7f29" prot="private" virt="non-virtual"><scope>EcsStartup</scope><name>Update</name></member>
+      <member refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" prot="public" virt="non-virtual"><scope>EcsStartup</scope><name>World</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

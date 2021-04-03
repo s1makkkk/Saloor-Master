@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_destroy_object" kind="class" prot="public">
+    <compoundname>DestroyObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_destroy_object_1ae63bccca98bcb76ab9c3c413b43bea01" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DestroyObject.TimeDelay</definition>
+        <argsstring></argsstring>
+        <name>TimeDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/DestroyObject.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/DestroyObject.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_destroy_object_1af78ba5d05aefa5c4b9d3937a41f074fe" compoundref="_destroy_object_8cs" startline="10" endline="13">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destroy_object_1a037750a1ba62a5d8394e7666d625ba95" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DestroyObject.isEntity</definition>
+        <argsstring></argsstring>
+        <name>isEntity</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/DestroyObject.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/DestroyObject.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_destroy_object_1af78ba5d05aefa5c4b9d3937a41f074fe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DestroyObject.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/DestroyObject.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/DestroyObject.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_destroy_object_1ae63bccca98bcb76ab9c3c413b43bea01" compoundref="_destroy_object_8cs" startline="8">TimeDelay</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>DestroyObject</label>
+        <link refid="class_destroy_object"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="44">
+        <label>DestroyObject</label>
+        <link refid="class_destroy_object"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/DestroyObject.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/DestroyObject.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_destroy_object_1a037750a1ba62a5d8394e7666d625ba95" prot="private" virt="non-virtual"><scope>DestroyObject</scope><name>isEntity</name></member>
+      <member refid="class_destroy_object_1af78ba5d05aefa5c4b9d3937a41f074fe" prot="private" virt="non-virtual"><scope>DestroyObject</scope><name>Start</name></member>
+      <member refid="class_destroy_object_1ae63bccca98bcb76ab9c3c413b43bea01" prot="private" virt="non-virtual"><scope>DestroyObject</scope><name>TimeDelay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

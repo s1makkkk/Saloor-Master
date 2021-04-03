@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_delay_component" kind="struct" prot="public">
+    <compoundname>ECS::Components::DelayComponent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_delay_component_1a2d9626752054ba02f38c3086066e04cb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ECS.Components.DelayComponent.TimeDelay</definition>
+        <argsstring></argsstring>
+        <name>TimeDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/DelayComponent.cs" line="6" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/DelayComponent.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_delay_component_1a272f4f9dccf5a45a03cc6e6b62164708" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ECS.Components.DelayComponent.Timer</definition>
+        <argsstring></argsstring>
+        <name>Timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/DelayComponent.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/DelayComponent.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_delay_component_1ab59197be201ef422fa8f3bd1ed76f166" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ECS.Components.DelayComponent.TimeOut</definition>
+        <argsstring></argsstring>
+        <name>TimeOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/DelayComponent.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/DelayComponent.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/DelayComponent.cs" line="5" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/DelayComponent.cs" bodystart="4" bodyend="9"/>
+    <listofallmembers>
+      <member refid="struct_e_c_s_1_1_components_1_1_delay_component_1a2d9626752054ba02f38c3086066e04cb" prot="public" virt="non-virtual"><scope>ECS::Components::DelayComponent</scope><name>TimeDelay</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_delay_component_1ab59197be201ef422fa8f3bd1ed76f166" prot="public" virt="non-virtual"><scope>ECS::Components::DelayComponent</scope><name>TimeOut</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_delay_component_1a272f4f9dccf5a45a03cc6e6b62164708" prot="public" virt="non-virtual"><scope>ECS::Components::DelayComponent</scope><name>Timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

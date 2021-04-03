@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_generator_component" kind="struct" prot="public">
+    <compoundname>ECS::Components::GeneratorComponent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_generator_component_1a8ea08230e66f65826cf828239b046321" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] ECS.Components.GeneratorComponent.LevelProps</definition>
+        <argsstring></argsstring>
+        <name>LevelProps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_generator_component_1a5eb55283da2fb12d0105f16dc1bcaf23" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ECS.Components.GeneratorComponent.TimeDelay</definition>
+        <argsstring></argsstring>
+        <name>TimeDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_generator_component_1a5761c206c069d6bb93388a0201247b02" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ECS.Components.GeneratorComponent.MinTime</definition>
+        <argsstring></argsstring>
+        <name>MinTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_generator_component_1a5cfc6decef73190d057b71b036bb0195" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ECS.Components.GeneratorComponent.Complexity</definition>
+        <argsstring></argsstring>
+        <name>Complexity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_generator_component_1a7d9657653df03b5fdee2badcdc585a51" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform ECS.Components.GeneratorComponent.Parrent</definition>
+        <argsstring></argsstring>
+        <name>Parrent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" line="11" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_generator_component_1a977d08c74a054d702b257437d6960c73" prot="public" static="no" mutable="no">
+        <type>Vector2[]</type>
+        <definition>Vector2 [] ECS.Components.GeneratorComponent.Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" line="12" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" line="6" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5cfc6decef73190d057b71b036bb0195" prot="public" virt="non-virtual"><scope>ECS::Components::GeneratorComponent</scope><name>Complexity</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a8ea08230e66f65826cf828239b046321" prot="public" virt="non-virtual"><scope>ECS::Components::GeneratorComponent</scope><name>LevelProps</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5761c206c069d6bb93388a0201247b02" prot="public" virt="non-virtual"><scope>ECS::Components::GeneratorComponent</scope><name>MinTime</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a7d9657653df03b5fdee2badcdc585a51" prot="public" virt="non-virtual"><scope>ECS::Components::GeneratorComponent</scope><name>Parrent</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a977d08c74a054d702b257437d6960c73" prot="public" virt="non-virtual"><scope>ECS::Components::GeneratorComponent</scope><name>Points</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5eb55283da2fb12d0105f16dc1bcaf23" prot="public" virt="non-virtual"><scope>ECS::Components::GeneratorComponent</scope><name>TimeDelay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

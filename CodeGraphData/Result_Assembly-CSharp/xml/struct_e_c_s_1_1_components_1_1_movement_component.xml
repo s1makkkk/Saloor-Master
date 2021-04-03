@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_movement_component" kind="struct" prot="public">
+    <compoundname>ECS::Components::MovementComponent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_movement_component_1a46d5b0a62d6c534a874223815a47da6c" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform ECS.Components.MovementComponent.self</definition>
+        <argsstring></argsstring>
+        <name>self</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_movement_component_1acc735d9046706236cf00d44ff1c8b021" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ECS.Components.MovementComponent.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_movement_component_1ac65e03e3fd449f1cb735bc4859bbe1f4" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 ECS.Components.MovementComponent.Direction</definition>
+        <argsstring></argsstring>
+        <name>Direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_movement_component_1aad8c72e2705b0085c8fcfdc4aaf19e3d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ECS.Components.MovementComponent.RotationOffset</definition>
+        <argsstring></argsstring>
+        <name>RotationOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" line="11" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_movement_component_1ae619cf61b9b31fc03b980fdab11b34e6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ECS.Components.MovementComponent.isLocal</definition>
+        <argsstring></argsstring>
+        <name>isLocal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" line="12" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementComponent.cs" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="struct_e_c_s_1_1_components_1_1_movement_component_1ac65e03e3fd449f1cb735bc4859bbe1f4" prot="public" virt="non-virtual"><scope>ECS::Components::MovementComponent</scope><name>Direction</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_movement_component_1ae619cf61b9b31fc03b980fdab11b34e6" prot="public" virt="non-virtual"><scope>ECS::Components::MovementComponent</scope><name>isLocal</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_movement_component_1aad8c72e2705b0085c8fcfdc4aaf19e3d" prot="public" virt="non-virtual"><scope>ECS::Components::MovementComponent</scope><name>RotationOffset</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_movement_component_1a46d5b0a62d6c534a874223815a47da6c" prot="public" virt="non-virtual"><scope>ECS::Components::MovementComponent</scope><name>self</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_movement_component_1acc735d9046706236cf00d44ff1c8b021" prot="public" virt="non-virtual"><scope>ECS::Components::MovementComponent</scope><name>speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

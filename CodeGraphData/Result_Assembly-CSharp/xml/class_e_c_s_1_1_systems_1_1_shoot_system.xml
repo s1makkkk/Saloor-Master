@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_e_c_s_1_1_systems_1_1_shoot_system" kind="class" prot="public">
+    <compoundname>ECS::Systems::ShootSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEcsRunSystem</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_shoot_system_1aee5eae59042479c45132b4f831a238b9" prot="private" static="no" mutable="no">
+        <type>EcsFilter&lt; <ref refid="struct_e_c_s_1_1_components_1_1_shoot_component" kindref="compound">Components.ShootComponent</ref>, <ref refid="struct_e_c_s_1_1_components_1_1_delay_component" kindref="compound">Components.DelayComponent</ref> &gt;</type>
+        <definition>EcsFilter&lt;Components.ShootComponent, Components.DelayComponent&gt; ECS.Systems.ShootSystem.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootSystem.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootSystem.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_shoot_system_1af469d202a90a7a02ba2853f02ef8846e" prot="private" static="no" mutable="no">
+        <type>readonly EcsWorld</type>
+        <definition>readonly EcsWorld ECS.Systems.ShootSystem._world</definition>
+        <argsstring></argsstring>
+        <name>_world</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootSystem.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootSystem.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_e_c_s_1_1_systems_1_1_shoot_system_1a358a492f26d3788dfce92d60efa725d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ECS.Systems.ShootSystem.Shoot</definition>
+        <argsstring>(ref Components.ShootComponent shootComponent)</argsstring>
+        <name>Shoot</name>
+        <param>
+          <type>ref <ref refid="struct_e_c_s_1_1_components_1_1_shoot_component" kindref="compound">Components.ShootComponent</ref></type>
+          <declname>shootComponent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootSystem.cs" line="11" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootSystem.cs" bodystart="11" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_e_c_s_1_1_systems_1_1_shoot_system_1a76c566b4d42286a3bcd337a2ee3efbea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IEcsRunSystem.</type>
+        <definition>void IEcsRunSystem. ECS.Systems.ShootSystem.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootSystem.cs" line="23" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootSystem.cs" bodystart="23" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="159">
+        <label>ECS.Systems.ShootSystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_shoot_system"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>IEcsRunSystem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="161">
+        <label>ECS.Systems.ShootSystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_shoot_system"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>IEcsRunSystem</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootSystem.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootSystem.cs" bodystart="6" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_e_c_s_1_1_systems_1_1_shoot_system_1af469d202a90a7a02ba2853f02ef8846e" prot="private" virt="non-virtual"><scope>ECS::Systems::ShootSystem</scope><name>_world</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_shoot_system_1aee5eae59042479c45132b4f831a238b9" prot="private" virt="non-virtual"><scope>ECS::Systems::ShootSystem</scope><name>filter</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_shoot_system_1a76c566b4d42286a3bcd337a2ee3efbea" prot="private" virt="non-virtual"><scope>ECS::Systems::ShootSystem</scope><name>Run</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_shoot_system_1a358a492f26d3788dfce92d60efa725d1" prot="private" virt="non-virtual"><scope>ECS::Systems::ShootSystem</scope><name>Shoot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

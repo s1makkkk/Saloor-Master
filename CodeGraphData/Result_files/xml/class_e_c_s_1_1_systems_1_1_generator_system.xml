@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_e_c_s_1_1_systems_1_1_generator_system" kind="class" prot="public">
+    <compoundname>ECS::Systems::GeneratorSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEcsRunSystem</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_generator_system_1a90ac75680077b99c6876e628735ae88a" prot="private" static="no" mutable="no">
+        <type>readonly EcsWorld</type>
+        <definition>readonly EcsWorld ECS.Systems.GeneratorSystem._world</definition>
+        <argsstring></argsstring>
+        <name>_world</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/GeneratorSystem.cs" line="11" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/GeneratorSystem.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_generator_system_1a78aaac33d47590698bd0c2e6d81a33d4" prot="private" static="no" mutable="no">
+        <type>EcsFilter&lt; <ref refid="struct_e_c_s_1_1_components_1_1_generator_component" kindref="compound">Components.GeneratorComponent</ref> &gt;</type>
+        <definition>EcsFilter&lt;Components.GeneratorComponent&gt; ECS.Systems.GeneratorSystem.filterGenerator</definition>
+        <argsstring></argsstring>
+        <name>filterGenerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/GeneratorSystem.cs" line="13" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/GeneratorSystem.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_generator_system_1abc95d6f40c62488476589662d7782823" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ECS.Systems.GeneratorSystem.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/GeneratorSystem.cs" line="15" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/GeneratorSystem.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_e_c_s_1_1_systems_1_1_generator_system_1ae5da1bffbd652fd1fa8f746200fd3a39" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IEcsRunSystem.</type>
+        <definition>void IEcsRunSystem. ECS.Systems.GeneratorSystem.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/GeneratorSystem.cs" line="16" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/GeneratorSystem.cs" bodystart="16" bodyend="40"/>
+        <references refid="class_generator_1aeaaadd4f3217c7a8480b350bc740ebf7" compoundref="_generator_8cs" startline="14">Generator.Complexity</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="77">
+        <label>IEcsRunSystem</label>
+      </node>
+      <node id="76">
+        <label>ECS.Systems.GeneratorSystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_generator_system"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="79">
+        <label>IEcsRunSystem</label>
+      </node>
+      <node id="78">
+        <label>ECS.Systems.GeneratorSystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_generator_system"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/GeneratorSystem.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/GeneratorSystem.cs" bodystart="8" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_e_c_s_1_1_systems_1_1_generator_system_1a90ac75680077b99c6876e628735ae88a" prot="private" virt="non-virtual"><scope>ECS::Systems::GeneratorSystem</scope><name>_world</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_generator_system_1a78aaac33d47590698bd0c2e6d81a33d4" prot="private" virt="non-virtual"><scope>ECS::Systems::GeneratorSystem</scope><name>filterGenerator</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_generator_system_1ae5da1bffbd652fd1fa8f746200fd3a39" prot="private" virt="non-virtual"><scope>ECS::Systems::GeneratorSystem</scope><name>Run</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_generator_system_1abc95d6f40c62488476589662d7782823" prot="private" virt="non-virtual"><scope>ECS::Systems::GeneratorSystem</scope><name>time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

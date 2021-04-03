@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event" kind="struct" prot="public">
+    <compoundname>ECS::Components::Events::CollisionEnterEvent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1aaf45d24a45b9b8b878fa662d82f0502a" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ECS.Components.Events.CollisionEnterEvent.Sender</definition>
+        <argsstring></argsstring>
+        <name>Sender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/CollisionEnterEvent.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/CollisionEnterEvent.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1af238b77bdfc5b79193e37d2e6cd7c8ba" prot="public" static="no" mutable="no">
+        <type>Collision2D</type>
+        <definition>Collision2D ECS.Components.Events.CollisionEnterEvent.Other</definition>
+        <argsstring></argsstring>
+        <name>Other</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/CollisionEnterEvent.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/CollisionEnterEvent.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1a09fa284376b90c8d5739374b361f0927" prot="public" static="no" mutable="no">
+        <type>EcsEntity</type>
+        <definition>EcsEntity ECS.Components.Events.CollisionEnterEvent.SenderEntity</definition>
+        <argsstring></argsstring>
+        <name>SenderEntity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/CollisionEnterEvent.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/CollisionEnterEvent.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1a8775a37ce284ee21975533bb8a77dcef" prot="public" static="no" mutable="no">
+        <type>EcsEntity</type>
+        <definition>EcsEntity ECS.Components.Events.CollisionEnterEvent.OtherEntity</definition>
+        <argsstring></argsstring>
+        <name>OtherEntity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/CollisionEnterEvent.cs" line="11" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/CollisionEnterEvent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/CollisionEnterEvent.cs" line="6" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/CollisionEnterEvent.cs" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1af238b77bdfc5b79193e37d2e6cd7c8ba" prot="public" virt="non-virtual"><scope>ECS::Components::Events::CollisionEnterEvent</scope><name>Other</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1a8775a37ce284ee21975533bb8a77dcef" prot="public" virt="non-virtual"><scope>ECS::Components::Events::CollisionEnterEvent</scope><name>OtherEntity</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1aaf45d24a45b9b8b878fa662d82f0502a" prot="public" virt="non-virtual"><scope>ECS::Components::Events::CollisionEnterEvent</scope><name>Sender</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1a09fa284376b90c8d5739374b361f0927" prot="public" virt="non-virtual"><scope>ECS::Components::Events::CollisionEnterEvent</scope><name>SenderEntity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

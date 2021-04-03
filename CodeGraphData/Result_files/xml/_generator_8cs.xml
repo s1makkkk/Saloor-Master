@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_generator_8cs" kind="file">
+    <compoundname>Generator.cs</compoundname>
+    <innerclass refid="class_generator" prot="public">Generator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ECS;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Leopotam.Ecs;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_generator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_generator" kindref="compound">Generator</ref><sp/>:<sp/><ref refid="class_mono_entity" kindref="compound">MonoEntity</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_generator_1aa128480fd3d6cbfbcc60948cc5622a54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject[]<sp/><ref refid="class_generator_1aa128480fd3d6cbfbcc60948cc5622a54" kindref="member">Props</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_generator_1a28a3f312eb4cf5647148eff46b3c724f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Transform[]<sp/><ref refid="class_generator_1a28a3f312eb4cf5647148eff46b3c724f" kindref="member">Points</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_generator_1a5b332659e9747f4d583f407e7c7d119f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_generator_1a5b332659e9747f4d583f407e7c7d119f" kindref="member">TimeDelay</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_generator_1a7c662294052b2d5a1585c27ebd6ee42e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_generator_1a7c662294052b2d5a1585c27ebd6ee42e" kindref="member">minTimeDelay</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_generator_1aeaaadd4f3217c7a8480b350bc740ebf7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_generator_1aeaaadd4f3217c7a8480b350bc740ebf7" kindref="member">Complexity</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_generator_1a93f4ee09949f9db76434b56449812c95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_generator_1a93f4ee09949f9db76434b56449812c95" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" kindref="member">Entity</ref><sp/>=<sp/>EcsStartup.World.NewEntity();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><ref refid="struct_e_c_s_1_1_components_1_1_generator_component" kindref="compound">ECS.Components.GeneratorComponent</ref><sp/><ref refid="class_generator" kindref="compound">Generator</ref><sp/>=<sp/>ref<sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_generator_component" kindref="compound">ECS.Components.GeneratorComponent</ref>&gt;();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Generator.LevelProps<sp/>=<sp/><ref refid="class_generator_1aa128480fd3d6cbfbcc60948cc5622a54" kindref="member">Props</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Generator.TimeDelay<sp/>=<sp/><ref refid="class_generator_1a5b332659e9747f4d583f407e7c7d119f" kindref="member">TimeDelay</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Generator.Parrent<sp/>=<sp/>transform;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Generator.Points<sp/>=<sp/><ref refid="class_generator_1abee7c39ad0b315bf80d9cce9b0686ce0" kindref="member">TransformToVector</ref>(<ref refid="class_generator_1a28a3f312eb4cf5647148eff46b3c724f" kindref="member">Points</ref>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_generator_1abee7c39ad0b315bf80d9cce9b0686ce0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector2[]<sp/><ref refid="class_generator_1abee7c39ad0b315bf80d9cce9b0686ce0" kindref="member">TransformToVector</ref>(Transform[]<sp/>t)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector2[]<sp/>v<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2[t.Length];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;i&lt;t.Length;i++)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v[i]<sp/>=<sp/>t[i].position;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>v;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Generator.cs"/>
+  </compounddef>
+</doxygen>

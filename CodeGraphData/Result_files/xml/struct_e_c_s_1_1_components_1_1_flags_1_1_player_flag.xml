@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_flags_1_1_player_flag" kind="struct" prot="public">
+    <compoundname>ECS::Components::Flags::PlayerFlag</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEcsIgnoreInFilter</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="138">
+        <label>IEcsIgnoreInFilter</label>
+      </node>
+      <node id="137">
+        <label>ECS.Components.Flags.PlayerFlag</label>
+        <link refid="struct_e_c_s_1_1_components_1_1_flags_1_1_player_flag"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="140">
+        <label>IEcsIgnoreInFilter</label>
+      </node>
+      <node id="139">
+        <label>ECS.Components.Flags.PlayerFlag</label>
+        <link refid="struct_e_c_s_1_1_components_1_1_flags_1_1_player_flag"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Flags/Flags.cs" line="5" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Flags/Flags.cs" bodystart="5" bodyend="5"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

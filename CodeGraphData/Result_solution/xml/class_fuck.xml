@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_fuck" kind="class" prot="public">
+    <compoundname>Fuck</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_fuck_1a2bf3720b439a58027259b64b103ba50f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Fuck.isFuck</definition>
+        <argsstring></argsstring>
+        <name>isFuck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/GameData.cs" line="15" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/GameData.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fuck_1a28274c10aad4c5c9923e6f67ac6ac488" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Fuck.Compiled</definition>
+        <argsstring></argsstring>
+        <name>Compiled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/GameData.cs" line="16" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/GameData.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/GameData.cs" line="14" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/GameData.cs" bodystart="13" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_fuck_1a28274c10aad4c5c9923e6f67ac6ac488" prot="public" virt="non-virtual"><scope>Fuck</scope><name>Compiled</name></member>
+      <member refid="class_fuck_1a2bf3720b439a58027259b64b103ba50f" prot="public" virt="non-virtual"><scope>Fuck</scope><name>isFuck</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_flags_8cs" kind="file">
+    <compoundname>Flags.cs</compoundname>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_flags_1_1_bullet_flag" prot="public">ECS::Components::Flags::BulletFlag</innerclass>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_flags_1_1_player_flag" prot="public">ECS::Components::Flags::PlayerFlag</innerclass>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_flags_1_1_level_props_flag" prot="public">ECS::Components::Flags::LevelPropsFlag</innerclass>
+    <innernamespace refid="namespace_e_c_s_1_1_components_1_1_flags">ECS::Components::Flags</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Leopotam.Ecs;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_e_c_s_1_1_components_1_1_flags" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ECS.Components.Flags<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="struct_e_c_s_1_1_components_1_1_flags_1_1_bullet_flag" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_e_c_s_1_1_components_1_1_flags_1_1_bullet_flag" kindref="compound">BulletFlag</ref><sp/>:<sp/>IEcsIgnoreInFilter<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="5" refid="struct_e_c_s_1_1_components_1_1_flags_1_1_player_flag" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_e_c_s_1_1_components_1_1_flags_1_1_player_flag" kindref="compound">PlayerFlag</ref><sp/>:<sp/>IEcsIgnoreInFilter<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="6" refid="struct_e_c_s_1_1_components_1_1_flags_1_1_level_props_flag" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_e_c_s_1_1_components_1_1_flags_1_1_level_props_flag" kindref="compound">LevelPropsFlag</ref><sp/>:<sp/>IEcsIgnoreInFilter<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Flags/Flags.cs"/>
+  </compounddef>
+</doxygen>

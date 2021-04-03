@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_bullet_8cs" kind="file">
+    <compoundname>Bullet.cs</compoundname>
+    <innerclass refid="class_bullet" prot="public">Bullet</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ECS;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Leopotam.Ecs;</highlight></codeline>
+<codeline lineno="6" refid="class_bullet" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bullet" kindref="compound">Bullet</ref><sp/>:<sp/><ref refid="class_mono_entity" kindref="compound">MonoEntity</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>Vector2<sp/>Dir<sp/>{<sp/>get;<sp/>set;<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_bullet_1ab99254a8c08bb5a4a9bf4b051837c543" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector2<sp/><ref refid="class_bullet_1ab99254a8c08bb5a4a9bf4b051837c543" kindref="member">Direction</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_bullet_1a860cc71558c0a388a535127125faf5e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_bullet_1a860cc71558c0a388a535127125faf5e1" kindref="member">Speed</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_bullet_1a4d27885be0a707d0c3d0276b23fde27a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_bullet_1a4d27885be0a707d0c3d0276b23fde27a" kindref="member">Particle</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_bullet_1a1f2013cac896a473fd5cd2f5af4035ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_bullet_1a1f2013cac896a473fd5cd2f5af4035ad" kindref="member">Delay</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_bullet_1aa4e219d560b3d1ee11994cc12d5ce046" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[HideInInspector]<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_bullet_1aa4e219d560b3d1ee11994cc12d5ce046" kindref="member">Sender</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_bullet_1a4862c6392cf36c5c20f2ace5b1d8d484" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bullet_1a4862c6392cf36c5c20f2ace5b1d8d484" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" kindref="member">Entity</ref><sp/>=<sp/>EcsStartup.World.NewEntity();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><ref refid="struct_e_c_s_1_1_components_1_1_movement_component" kindref="compound">ECS.Components.MovementComponent</ref><sp/>movement<sp/>=<sp/>ref<sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_movement_component" kindref="compound">ECS.Components.MovementComponent</ref>&gt;();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>movement.Direction<sp/>=<sp/><ref refid="class_bullet_1ab99254a8c08bb5a4a9bf4b051837c543" kindref="member">Direction</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>movement.self<sp/>=<sp/>transform;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>movement.speed<sp/>=<sp/><ref refid="class_bullet_1a860cc71558c0a388a535127125faf5e1" kindref="member">Speed</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>movement.isLocal<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><ref refid="struct_e_c_s_1_1_components_1_1_delay_component" kindref="compound">ECS.Components.DelayComponent</ref><sp/>delay<sp/>=<sp/>ref<sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_delay_component" kindref="compound">ECS.Components.DelayComponent</ref>&gt;();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delay.TimeDelay<sp/>=<sp/><ref refid="class_bullet_1a1f2013cac896a473fd5cd2f5af4035ad" kindref="member">Delay</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_flags_1_1_bullet_flag" kindref="compound">ECS.Components.Flags.BulletFlag</ref>&gt;();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_sender_component" kindref="compound">ECS.Components.SenderComponent</ref>&gt;().<ref refid="class_bullet_1aa4e219d560b3d1ee11994cc12d5ce046" kindref="member">Sender</ref><sp/>=<sp/><ref refid="class_bullet_1aa4e219d560b3d1ee11994cc12d5ce046" kindref="member">Sender</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO:<sp/>Здесь<sp/>срочно<sp/>нжен<sp/>рефакторинг.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_bullet_1a18a311bfeb629beea92e8c6d087b89c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bullet_1a18a311bfeb629beea92e8c6d087b89c6" kindref="member">SetDirection</ref>(Vector2<sp/>dir)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bullet_1ab99254a8c08bb5a4a9bf4b051837c543" kindref="member">Direction</ref><sp/>=<sp/>dir;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Bullet.cs"/>
+  </compounddef>
+</doxygen>

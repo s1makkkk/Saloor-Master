@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0f8d2c185f02ef6f941d2e1779e8f40e" kind="dir">
+    <compoundname>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures</compoundname>
+    <innerfile refid="_shoot_point_8cs">ShootPoint.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures/"/>
+  </compounddef>
+</doxygen>

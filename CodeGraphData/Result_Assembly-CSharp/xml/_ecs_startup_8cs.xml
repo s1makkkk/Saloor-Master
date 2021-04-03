@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_ecs_startup_8cs" kind="file">
+    <compoundname>EcsStartup.cs</compoundname>
+    <innerclass refid="class_ecs_startup" prot="public">EcsStartup</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Leopotam.Ecs;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ECS;</highlight></codeline>
+<codeline lineno="4" refid="class_ecs_startup" refkind="compound"><highlight class="normal">sealed<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ecs_startup" kindref="compound">EcsStartup</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>EcsWorld<sp/><ref refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" kindref="member">World</ref>;</highlight></codeline>
+<codeline lineno="7" refid="class_ecs_startup_1a4c140c04f8619845104891754d1c8fa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/>Leopotam.Ecs.Ui.Systems.EcsUiEmitter<sp/><ref refid="class_ecs_startup_1a4c140c04f8619845104891754d1c8fa9" kindref="member">_uiEmitter</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="11" refid="class_ecs_startup_1a2e1c4fe84d0b8e6c97ef136b00f80b24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_game_data" kindref="compound">GameData</ref><sp/><ref refid="class_ecs_startup_1a2e1c4fe84d0b8e6c97ef136b00f80b24" kindref="member">gameData</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EcsSystems<sp/><ref refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" kindref="member">SystemsUpdate</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EcsSystems<sp/><ref refid="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" kindref="member">SystemsFixedUpdate</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_ecs_startup_1ade2779cc4479f07b2577caa106a76b22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ecs_startup_1ade2779cc4479f07b2577caa106a76b22" kindref="member">Awake</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>void<sp/>can<sp/>be<sp/>switched<sp/>to<sp/>IEnumerator<sp/>for<sp/>support<sp/>coroutines.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" kindref="member">World</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>EcsWorld();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" kindref="member">SystemsUpdate</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>EcsSystems(<ref refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" kindref="member">World</ref>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" kindref="member">SystemsFixedUpdate</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>EcsSystems(<ref refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" kindref="member">World</ref>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UNITY_EDITOR</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Leopotam.Ecs.UnityIntegration.EcsWorldObserver.Create(<ref refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" kindref="member">World</ref>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Leopotam.Ecs.UnityIntegration.EcsSystemsObserver.Create(<ref refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" kindref="member">SystemsUpdate</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Leopotam.Ecs.UnityIntegration.EcsSystemsObserver.Create(<ref refid="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" kindref="member">SystemsFixedUpdate</ref>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_input_system" kindref="compound">ECS.Systems.InputSystem</ref>());</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_delay_system" kindref="compound">ECS.Systems.DelaySystem</ref>());</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_movement_player_system" kindref="compound">ECS.Systems.MovementPlayerSystem</ref>());</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_movement_system" kindref="compound">ECS.Systems.MovementSystem</ref>());</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_shoot_player_system" kindref="compound">ECS.Systems.ShootPlayerSystem</ref>());</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_generator_system" kindref="compound">ECS.Systems.GeneratorSystem</ref>());</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_shoot_system" kindref="compound">ECS.Systems.ShootSystem</ref>());</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Events:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_player_event" kindref="compound">ECS.Systems.Events.CollisionPlayerEvent</ref>());</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event" kindref="compound">ECS.Systems.Events.CollisionBulletEvent</ref>());</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system" kindref="compound">ECS.Systems.Events.HitEventSystem</ref>());</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system" kindref="compound">ECS.Systems.Events.DestroyEntityEventSystem</ref>());</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>register<sp/>one-frame<sp/>components<sp/>(order<sp/>is<sp/>important),<sp/>for<sp/>example:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>.OneFrame&lt;TestComponent1&gt;<sp/>()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>.OneFrame&lt;TestComponent2&gt;<sp/>()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>inject<sp/>service<sp/>instances<sp/>here<sp/>(order<sp/>doesn&apos;t<sp/>important),<sp/>for<sp/>example:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>.Inject<sp/>(new<sp/>CameraService<sp/>())</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>.Inject<sp/>(new<sp/>NavMeshSupport<sp/>())</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Inject(<ref refid="class_ecs_startup_1a2e1c4fe84d0b8e6c97ef136b00f80b24" kindref="member">gameData</ref>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Init();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsFixedUpdate.Init();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="class_ecs_startup_1a0f96edd23006215fa576cfe734ea7f29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ecs_startup_1a0f96edd23006215fa576cfe734ea7f29" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" kindref="member">SystemsUpdate</ref>?.Run();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="class_ecs_startup_1a9dfe93ff6017f15a26fc9e2a992d06a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ecs_startup_1a9dfe93ff6017f15a26fc9e2a992d06a8" kindref="member">OnDestroy</ref>()</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" kindref="member">SystemsUpdate</ref><sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsUpdate.Destroy();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" kindref="member">SystemsUpdate</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" kindref="member">SystemsFixedUpdate</ref><sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemsFixedUpdate.Destroy();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" kindref="member">SystemsFixedUpdate</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>World.Destroy();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" kindref="member">World</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/EcsStartup.cs"/>
+  </compounddef>
+</doxygen>

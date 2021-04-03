@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event" kind="class" prot="public">
+    <compoundname>ECS::Systems::Events::CollisionBulletEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEcsRunSystem</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1a713734092c0a5e43257fc81d469fba80" prot="private" static="no" mutable="no">
+        <type>readonly EcsWorld</type>
+        <definition>readonly EcsWorld ECS.Systems.Events.CollisionBulletEvent._world</definition>
+        <argsstring></argsstring>
+        <name>_world</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1a2daae65d84aab4d70e3a456e0539b3d2" prot="private" static="no" mutable="no">
+        <type>EcsFilter&lt; <ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event" kindref="compound">Components.Events.CollisionEnterEvent</ref>, <ref refid="struct_e_c_s_1_1_components_1_1_flags_1_1_bullet_flag" kindref="compound">Components.Flags.BulletFlag</ref> &gt;</type>
+        <definition>EcsFilter&lt;Components.Events.CollisionEnterEvent, Components.Flags.BulletFlag&gt; ECS.Systems.Events.CollisionBulletEvent.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" line="11" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1adb78271f2ed0a85b019be17770f366d9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_data" kindref="compound">GameData</ref></type>
+        <definition>GameData ECS.Systems.Events.CollisionBulletEvent.gameData</definition>
+        <argsstring></argsstring>
+        <name>gameData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" line="12" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1abbcefff0e1d67f67839c935fee751d28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IEcsRunSystem.</type>
+        <definition>void IEcsRunSystem. ECS.Systems.Events.CollisionBulletEvent.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" line="14" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" bodystart="14" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1ac2d90ff7a41eb74f3e88ace4672df7e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ECS.Systems.Events.CollisionBulletEvent.SendCollisionEvent</definition>
+        <argsstring>(GameObject Hit, EcsEntity entity)</argsstring>
+        <name>SendCollisionEvent</name>
+        <param>
+          <type>GameObject</type>
+          <declname>Hit</declname>
+        </param>
+        <param>
+          <type>EcsEntity</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" line="50" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" bodystart="50" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>IEcsRunSystem</label>
+      </node>
+      <node id="10">
+        <label>ECS.Systems.Events.CollisionBulletEvent</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>IEcsRunSystem</label>
+      </node>
+      <node id="12">
+        <label>ECS.Systems.Events.CollisionBulletEvent</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>gameData</edgelabel>
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Fuck</label>
+        <link refid="class_fuck"/>
+      </node>
+      <node id="14">
+        <label>GameData</label>
+        <link refid="class_game_data"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>fuck</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents/CollisionBulletEvent.cs" bodystart="7" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1a713734092c0a5e43257fc81d469fba80" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::CollisionBulletEvent</scope><name>_world</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1a2daae65d84aab4d70e3a456e0539b3d2" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::CollisionBulletEvent</scope><name>filter</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1adb78271f2ed0a85b019be17770f366d9" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::CollisionBulletEvent</scope><name>gameData</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1abbcefff0e1d67f67839c935fee751d28" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::CollisionBulletEvent</scope><name>Run</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1ac2d90ff7a41eb74f3e88ace4672df7e3" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::CollisionBulletEvent</scope><name>SendCollisionEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

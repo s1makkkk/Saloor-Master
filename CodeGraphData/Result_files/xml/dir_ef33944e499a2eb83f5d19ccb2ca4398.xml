@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ef33944e499a2eb83f5d19ccb2ca4398" kind="dir">
+    <compoundname>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts</compoundname>
+    <innerdir refid="dir_50063cb91ea2ef2048a727c8b4f01bef">D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components</innerdir>
+    <innerdir refid="dir_622d90aea9faa032a975ad49fcb1178e">D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services</innerdir>
+    <innerdir refid="dir_0f8d2c185f02ef6f941d2e1779e8f40e">D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures</innerdir>
+    <innerdir refid="dir_fbe34e60f1159d1389b554c4c559cf06">D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems</innerdir>
+    <innerdir refid="dir_7ded8dc7e864797de57ae507c5cdf22b">D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents</innerdir>
+    <innerfile refid="_ecs_startup_8cs">EcsStartup.cs</innerfile>
+    <innerfile refid="_game_data_8cs">GameData.cs</innerfile>
+    <innerfile refid="_service_8cs">Service.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

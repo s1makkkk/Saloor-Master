@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_hit_event_8cs" kind="file">
+    <compoundname>HitEvent.cs</compoundname>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event" prot="public">ECS::Components::Events::HitEvent</innerclass>
+    <innernamespace refid="namespace_e_c_s_1_1_components_1_1_events">ECS::Components::Events</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Leopotam.Ecs;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ECS.Components.Events</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event" kindref="compound">HitEvent</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a6782a932bd68d81a09b90b50cf07a10a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a6782a932bd68d81a09b90b50cf07a10a" kindref="member">Hit</ref>;</highlight></codeline>
+<codeline lineno="8" refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a2c7ecdce8b527909b32a0a30082c9ed5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a2c7ecdce8b527909b32a0a30082c9ed5" kindref="member">Particle</ref>;</highlight></codeline>
+<codeline lineno="9" refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a86c59e56b450f60f02a2eb3a8a46ecd6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector2<sp/><ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a86c59e56b450f60f02a2eb3a8a46ecd6" kindref="member">Position</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/HitEvent.cs"/>
+  </compounddef>
+</doxygen>

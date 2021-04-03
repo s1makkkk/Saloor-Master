@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_bullet" kind="class"><name>Bullet</name>
+    <member refid="class_bullet_1ab99254a8c08bb5a4a9bf4b051837c543" kind="variable"><name>Direction</name></member>
+    <member refid="class_bullet_1a860cc71558c0a388a535127125faf5e1" kind="variable"><name>Speed</name></member>
+    <member refid="class_bullet_1a4d27885be0a707d0c3d0276b23fde27a" kind="variable"><name>Particle</name></member>
+    <member refid="class_bullet_1a1f2013cac896a473fd5cd2f5af4035ad" kind="variable"><name>Delay</name></member>
+    <member refid="class_bullet_1aa4e219d560b3d1ee11994cc12d5ce046" kind="variable"><name>Sender</name></member>
+    <member refid="class_bullet_1a4862c6392cf36c5c20f2ace5b1d8d484" kind="function"><name>Start</name></member>
+    <member refid="class_bullet_1a18a311bfeb629beea92e8c6d087b89c6" kind="function"><name>SetDirection</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_flags_1_1_bullet_flag" kind="struct"><name>ECS::Components::Flags::BulletFlag</name>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event" kind="class"><name>ECS::Systems::Events::CollisionBulletEvent</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1a713734092c0a5e43257fc81d469fba80" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1a2daae65d84aab4d70e3a456e0539b3d2" kind="variable"><name>filter</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1adb78271f2ed0a85b019be17770f366d9" kind="variable"><name>gameData</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1abbcefff0e1d67f67839c935fee751d28" kind="function"><name>Run</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_bullet_event_1ac2d90ff7a41eb74f3e88ace4672df7e3" kind="function"><name>SendCollisionEvent</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event" kind="struct"><name>ECS::Components::Events::CollisionEnterEvent</name>
+    <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1aaf45d24a45b9b8b878fa662d82f0502a" kind="variable"><name>Sender</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1af238b77bdfc5b79193e37d2e6cd7c8ba" kind="variable"><name>Other</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1a09fa284376b90c8d5739374b361f0927" kind="variable"><name>SenderEntity</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event_1a8775a37ce284ee21975533bb8a77dcef" kind="variable"><name>OtherEntity</name></member>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_player_event" kind="class"><name>ECS::Systems::Events::CollisionPlayerEvent</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_player_event_1a9049d21359856a13c7452a1e2410ed5f" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_player_event_1a9e85ca238c78590df56f01f6dcf64d0c" kind="variable"><name>filter</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_player_event_1aedae853e16780318a165ea938a773c1d" kind="variable"><name>gameData</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_player_event_1a1c60ec3a4cd085638a19910845e89213" kind="function"><name>Run</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_collision_player_event_1a7089a5d52922782286ad3ce2968a234a" kind="function"><name>DestroyEntity</name></member>
+  </compound>
+  <compound refid="class_default_prefs" kind="class"><name>DefaultPrefs</name>
+    <member refid="class_default_prefs_1ad2dfdd8e231b3f828e4e0a36732d7ca2" kind="function"><name>Load</name></member>
+    <member refid="class_default_prefs_1af2b58d3f30fea70b24d16d5fd3c291c9" kind="function"><name>Save</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_delay_component" kind="struct"><name>ECS::Components::DelayComponent</name>
+    <member refid="struct_e_c_s_1_1_components_1_1_delay_component_1a2d9626752054ba02f38c3086066e04cb" kind="variable"><name>TimeDelay</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_delay_component_1a272f4f9dccf5a45a03cc6e6b62164708" kind="variable"><name>Timer</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_delay_component_1ab59197be201ef422fa8f3bd1ed76f166" kind="variable"><name>TimeOut</name></member>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_delay_system" kind="class"><name>ECS::Systems::DelaySystem</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_delay_system_1ab463fafab675364a5c49db39d64e4dcc" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_delay_system_1afbca717c37f752a5fe69a94933bf6beb" kind="variable"><name>filter</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_delay_system_1a9887cf59919c5f7f114427f3f2a5ca95" kind="function"><name>Run</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event" kind="struct"><name>ECS::Components::Events::DestroyEntityEvent</name>
+    <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event_1a86b933dc66ad98fa64ab4ce8d6712979" kind="variable"><name>gameObject</name></member>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system" kind="class"><name>ECS::Systems::Events::DestroyEntityEventSystem</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system_1a2166d0be99dd6fc528e591f952ebeb2f" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system_1a5a02b33c5b32b382e88a4780c6d166a0" kind="variable"><name>filter</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system_1a1b1a0b2f774491764ea2d27da2fdb687" kind="function"><name>Run</name></member>
+  </compound>
+  <compound refid="class_destroy_object" kind="class"><name>DestroyObject</name>
+    <member refid="class_destroy_object_1ae63bccca98bcb76ab9c3c413b43bea01" kind="variable"><name>TimeDelay</name></member>
+    <member refid="class_destroy_object_1a037750a1ba62a5d8394e7666d625ba95" kind="variable"><name>isEntity</name></member>
+    <member refid="class_destroy_object_1af78ba5d05aefa5c4b9d3937a41f074fe" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_ecs_startup" kind="class"><name>EcsStartup</name>
+    <member refid="class_ecs_startup_1a4e79bccc6941311fdfa2f7530689207a" kind="variable"><name>World</name></member>
+    <member refid="class_ecs_startup_1a4c140c04f8619845104891754d1c8fa9" kind="variable"><name>_uiEmitter</name></member>
+    <member refid="class_ecs_startup_1a17eab04ea0816b4975d3f16fa61d9d61" kind="variable"><name>SystemsUpdate</name></member>
+    <member refid="class_ecs_startup_1a8f0813ae144fb565d042222256466b83" kind="variable"><name>SystemsFixedUpdate</name></member>
+    <member refid="class_ecs_startup_1a2e1c4fe84d0b8e6c97ef136b00f80b24" kind="variable"><name>gameData</name></member>
+    <member refid="class_ecs_startup_1ade2779cc4479f07b2577caa106a76b22" kind="function"><name>Awake</name></member>
+    <member refid="class_ecs_startup_1a0f96edd23006215fa576cfe734ea7f29" kind="function"><name>Update</name></member>
+    <member refid="class_ecs_startup_1a9dfe93ff6017f15a26fc9e2a992d06a8" kind="function"><name>OnDestroy</name></member>
+  </compound>
+  <compound refid="class_enemy_ship" kind="class"><name>EnemyShip</name>
+    <member refid="class_enemy_ship_1a6e9b6b693f59a42881884f5fd414f70d" kind="variable"><name>bullet</name></member>
+    <member refid="class_enemy_ship_1aace76ebc13f99ade7cd715b8e050e81a" kind="variable"><name>Damage</name></member>
+    <member refid="class_enemy_ship_1aaeb388a93f0d2b70d74b60f49ca988a9" kind="variable"><name>Points</name></member>
+    <member refid="class_enemy_ship_1adc231dfdd96b8aabadddda16445c4510" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_fuck" kind="class"><name>Fuck</name>
+    <member refid="class_fuck_1a2bf3720b439a58027259b64b103ba50f" kind="variable"><name>isFuck</name></member>
+    <member refid="class_fuck_1a28274c10aad4c5c9923e6f67ac6ac488" kind="variable"><name>Compiled</name></member>
+  </compound>
+  <compound refid="class_game_data" kind="class"><name>GameData</name>
+    <member refid="class_game_data_1a9719808354e2ae5a88714dc2b671617b" kind="variable"><name>ParticleEffect</name></member>
+    <member refid="class_game_data_1acc2c1004ac99cf192f288afb2ee25aa8" kind="variable"><name>fuck</name></member>
+  </compound>
+  <compound refid="class_generator" kind="class"><name>Generator</name>
+    <member refid="class_generator_1aa128480fd3d6cbfbcc60948cc5622a54" kind="variable"><name>Props</name></member>
+    <member refid="class_generator_1a28a3f312eb4cf5647148eff46b3c724f" kind="variable"><name>Points</name></member>
+    <member refid="class_generator_1a5b332659e9747f4d583f407e7c7d119f" kind="variable"><name>TimeDelay</name></member>
+    <member refid="class_generator_1a7c662294052b2d5a1585c27ebd6ee42e" kind="variable"><name>minTimeDelay</name></member>
+    <member refid="class_generator_1aeaaadd4f3217c7a8480b350bc740ebf7" kind="variable"><name>Complexity</name></member>
+    <member refid="class_generator_1a93f4ee09949f9db76434b56449812c95" kind="function"><name>Start</name></member>
+    <member refid="class_generator_1abee7c39ad0b315bf80d9cce9b0686ce0" kind="function"><name>TransformToVector</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_generator_component" kind="struct"><name>ECS::Components::GeneratorComponent</name>
+    <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a8ea08230e66f65826cf828239b046321" kind="variable"><name>LevelProps</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5eb55283da2fb12d0105f16dc1bcaf23" kind="variable"><name>TimeDelay</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5761c206c069d6bb93388a0201247b02" kind="variable"><name>MinTime</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5cfc6decef73190d057b71b036bb0195" kind="variable"><name>Complexity</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a7d9657653df03b5fdee2badcdc585a51" kind="variable"><name>Parrent</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_generator_component_1a977d08c74a054d702b257437d6960c73" kind="variable"><name>Points</name></member>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_generator_system" kind="class"><name>ECS::Systems::GeneratorSystem</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_generator_system_1a90ac75680077b99c6876e628735ae88a" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_generator_system_1a78aaac33d47590698bd0c2e6d81a33d4" kind="variable"><name>filterGenerator</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_generator_system_1abc95d6f40c62488476589662d7782823" kind="variable"><name>time</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_generator_system_1ae5da1bffbd652fd1fa8f746200fd3a39" kind="function"><name>Run</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event" kind="struct"><name>ECS::Components::Events::HitEvent</name>
+    <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a6782a932bd68d81a09b90b50cf07a10a" kind="variable"><name>Hit</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a2c7ecdce8b527909b32a0a30082c9ed5" kind="variable"><name>Particle</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a86c59e56b450f60f02a2eb3a8a46ecd6" kind="variable"><name>Position</name></member>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system" kind="class"><name>ECS::Systems::Events::HitEventSystem</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system_1a2cd51b7234ebb4647dbef41bb1f063d4" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system_1af849046c66d7b7214672edbb2e6b5e12" kind="variable"><name>filter</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_hit_event_system_1a62307d67c40d6ae58b9b43ba8ba29aee" kind="function"><name>Run</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_input_component" kind="struct"><name>ECS::Components::InputComponent</name>
+    <member refid="struct_e_c_s_1_1_components_1_1_input_component_1afb75ee17fba08b6c769d2aa8b4f392c7" kind="variable"><name>Direction</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_input_component_1a1bdc221356a8a82a90586933db8b0f06" kind="variable"><name>isShoot</name></member>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_input_system" kind="class"><name>ECS::Systems::InputSystem</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_input_system_1a72dcc1ee276a62c4a88e9b84ff33a1ed" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_input_system_1ae40d071df99f9ffdc66a49ecbe94fc45" kind="variable"><name>filter</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_input_system_1a8d8eeda4989993999a220621d86df114" kind="function"><name>Run</name></member>
+  </compound>
+  <compound refid="interface_i_score_prefs" kind="interface"><name>IScorePrefs</name>
+    <member refid="interface_i_score_prefs_1a76161c01efc91418ad977391a0ef2d30" kind="function"><name>Load</name></member>
+    <member refid="interface_i_score_prefs_1ade5d7d3527ed3ab9adcf75ef7585b0e2" kind="function"><name>Save</name></member>
+  </compound>
+  <compound refid="class_level_props" kind="class"><name>LevelProps</name>
+    <member refid="class_level_props_1a449944d4ab084479d3c10ac1cd2f4eeb" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_flags_1_1_level_props_flag" kind="struct"><name>ECS::Components::Flags::LevelPropsFlag</name>
+  </compound>
+  <compound refid="class_mono_entity" kind="class"><name>MonoEntity</name>
+    <member refid="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" kind="variable"><name>Entity</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_movement_component" kind="struct"><name>ECS::Components::MovementComponent</name>
+    <member refid="struct_e_c_s_1_1_components_1_1_movement_component_1a46d5b0a62d6c534a874223815a47da6c" kind="variable"><name>self</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_movement_component_1acc735d9046706236cf00d44ff1c8b021" kind="variable"><name>speed</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_movement_component_1ac65e03e3fd449f1cb735bc4859bbe1f4" kind="variable"><name>Direction</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_movement_component_1aad8c72e2705b0085c8fcfdc4aaf19e3d" kind="variable"><name>RotationOffset</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_movement_component_1ae619cf61b9b31fc03b980fdab11b34e6" kind="variable"><name>isLocal</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_movement_player_component" kind="struct"><name>ECS::Components::MovementPlayerComponent</name>
+    <member refid="struct_e_c_s_1_1_components_1_1_movement_player_component_1ad71c67566d616afb92febf0932b6439c" kind="variable"><name>self</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_movement_player_component_1aa26b45df26b7c3adbcab2a742cbcba9b" kind="variable"><name>Speed</name></member>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_movement_player_system" kind="class"><name>ECS::Systems::MovementPlayerSystem</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_movement_player_system_1aa3914526d8febb0909cb4549b1121e0b" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_movement_player_system_1a963158c563d7e8a8c8c2d6e28704d4e7" kind="variable"><name>filter</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_movement_player_system_1a8f2caff564af444b55f7ddaa93c5942e" kind="function"><name>Run</name></member>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_movement_system" kind="class"><name>ECS::Systems::MovementSystem</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_movement_system_1a689fb07d7971d58465e4dcfcd105061e" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_movement_system_1aabf83d8b890447a9d58b6f031d2852c7" kind="variable"><name>filter</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_movement_system_1a78cf50dac342af772cb54695a0208037" kind="function"><name>Run</name></member>
+  </compound>
+  <compound refid="class_physics2_d_emitter" kind="class"><name>Physics2DEmitter</name>
+    <member refid="class_physics2_d_emitter_1a549035aa9125e4f1c4bef23c87fd1f71" kind="variable"><name>monoEntity</name></member>
+    <member refid="class_physics2_d_emitter_1ab44a598b1d2514eb327bcc6b98325160" kind="function"><name>Start</name></member>
+    <member refid="class_physics2_d_emitter_1a263ef2b356a8479dfb446fbaaeb8e448" kind="function"><name>OnCollisionEnter2D</name></member>
+  </compound>
+  <compound refid="class_player" kind="class"><name>Player</name>
+    <member refid="class_player_1aea3feea42eb3f90364cd3454df79b57b" kind="variable"><name>Speed</name></member>
+    <member refid="class_player_1a9ca881f72817e958c33ea0da934345c3" kind="variable"><name>bullet</name></member>
+    <member refid="class_player_1ae57376d0095735b013fcbd2a90e0d4d7" kind="variable"><name>Damage</name></member>
+    <member refid="class_player_1a4bd6db8b889d6c49718a7451af9b4e65" kind="variable"><name>Points</name></member>
+    <member refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" kind="function"><name>Start</name></member>
+    <member refid="class_player_1aa902ef4197c2ffba8ca3cbc2665c3409" kind="function"><name>ConvertToPoints</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_flags_1_1_player_flag" kind="struct"><name>ECS::Components::Flags::PlayerFlag</name>
+  </compound>
+  <compound refid="class_score_service" kind="class"><name>ScoreService</name>
+    <member refid="class_score_service_1a074bb3896a2f2d72a9f1da2a8c8cfbf6" kind="variable"><name>BestResult</name></member>
+    <member refid="class_score_service_1a244a00ea5f89d08319b27e5e0a89cc13" kind="variable"><name>Result</name></member>
+    <member refid="class_score_service_1a35617484b7aed29ade3276427b284032" kind="variable"><name>Prefs</name></member>
+    <member refid="class_score_service_1aa649a88ab3c17b7891a80f6c98a9a606" kind="function"><name>Init</name></member>
+    <member refid="class_score_service_1a2b499b7d8c38a34567ae139242c764dd" kind="function"><name>Save</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_sender_component" kind="struct"><name>ECS::Components::SenderComponent</name>
+    <member refid="struct_e_c_s_1_1_components_1_1_sender_component_1ab85498f9cba52719f200627bf9c88e1c" kind="variable"><name>Sender</name></member>
+  </compound>
+  <compound refid="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4" kind="class"><name>LeopotamGroup::Globals::Service&lt; T &gt;</name>
+    <member refid="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4_1a518bf0e036c3b50be960a4185e1d07de" kind="variable"><name>_instance</name></member>
+    <member refid="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4_1a4b24a3737ec1355eb95a956f48eb96a0" kind="function"><name>Get</name></member>
+    <member refid="class_leopotam_group_1_1_globals_1_1_service_3_01_t_01_4_1a8bd00d3ce4259b59bba976331e1a99d2" kind="function"><name>Set</name></member>
+  </compound>
+  <compound refid="struct_e_c_s_1_1_components_1_1_shoot_component" kind="struct"><name>ECS::Components::ShootComponent</name>
+    <member refid="struct_e_c_s_1_1_components_1_1_shoot_component_1afa21c6933d96562ec7e2361f3d686997" kind="variable"><name>Point</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_shoot_component_1aa84df902c168e42f92bb8e19f1308ed9" kind="variable"><name>Damage</name></member>
+    <member refid="struct_e_c_s_1_1_components_1_1_shoot_component_1aecab2cb578e785a387623654ef4dab35" kind="variable"><name>Prefab</name></member>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_shoot_player_system" kind="class"><name>ECS::Systems::ShootPlayerSystem</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_shoot_player_system_1a69fd586fcd4e1aa2c40884afeb09d162" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_shoot_player_system_1a1d7b8296a6eb419c8d9b556f74f57653" kind="variable"><name>filter</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_shoot_player_system_1ac021643f10b25260eb05852e155f658f" kind="function"><name>Run</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_shoot_player_system_1afd49164014de6ceb47495e59080b56a8" kind="function"><name>Shoot</name></member>
+  </compound>
+  <compound refid="struct_shoot_point" kind="struct"><name>ShootPoint</name>
+    <member refid="struct_shoot_point_1a1c111322449727e8ecc7048f7e0798e6" kind="variable"><name>transform</name></member>
+    <member refid="struct_shoot_point_1aab5f8887083ac6e755d78e80ff47e39c" kind="variable"><name>Direction</name></member>
+    <member refid="struct_shoot_point_1a32ce3e7a1687383976ca86900f1e0b98" kind="function"><name>ShootPoint</name></member>
+  </compound>
+  <compound refid="class_e_c_s_1_1_systems_1_1_shoot_system" kind="class"><name>ECS::Systems::ShootSystem</name>
+    <member refid="class_e_c_s_1_1_systems_1_1_shoot_system_1aee5eae59042479c45132b4f831a238b9" kind="variable"><name>filter</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_shoot_system_1af469d202a90a7a02ba2853f02ef8846e" kind="variable"><name>_world</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_shoot_system_1a358a492f26d3788dfce92d60efa725d1" kind="function"><name>Shoot</name></member>
+    <member refid="class_e_c_s_1_1_systems_1_1_shoot_system_1a76c566b4d42286a3bcd337a2ee3efbea" kind="function"><name>Run</name></member>
+  </compound>
+  <compound refid="namespace_e_c_s" kind="namespace"><name>ECS</name>
+  </compound>
+  <compound refid="namespace_e_c_s_1_1_components" kind="namespace"><name>ECS::Components</name>
+  </compound>
+  <compound refid="namespace_e_c_s_1_1_components_1_1_events" kind="namespace"><name>ECS::Components::Events</name>
+  </compound>
+  <compound refid="namespace_e_c_s_1_1_components_1_1_flags" kind="namespace"><name>ECS::Components::Flags</name>
+  </compound>
+  <compound refid="namespace_e_c_s_1_1_systems" kind="namespace"><name>ECS::Systems</name>
+  </compound>
+  <compound refid="namespace_e_c_s_1_1_systems_1_1_events" kind="namespace"><name>ECS::Systems::Events</name>
+  </compound>
+  <compound refid="namespace_leopotam_1_1_ecs" kind="namespace"><name>Leopotam::Ecs</name>
+  </compound>
+  <compound refid="namespace_leopotam_group" kind="namespace"><name>LeopotamGroup</name>
+  </compound>
+  <compound refid="namespace_leopotam_group_1_1_globals" kind="namespace"><name>LeopotamGroup::Globals</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="_bullet_sender_component_8cs" kind="file"><name>BulletSenderComponent.cs</name>
+  </compound>
+  <compound refid="_delay_component_8cs" kind="file"><name>DelayComponent.cs</name>
+  </compound>
+  <compound refid="_collision_enter_event_8cs" kind="file"><name>CollisionEnterEvent.cs</name>
+  </compound>
+  <compound refid="_destroy_entity_event_8cs" kind="file"><name>DestroyEntityEvent.cs</name>
+  </compound>
+  <compound refid="_hit_event_8cs" kind="file"><name>HitEvent.cs</name>
+  </compound>
+  <compound refid="_flags_8cs" kind="file"><name>Flags.cs</name>
+  </compound>
+  <compound refid="_generator_component_8cs" kind="file"><name>GeneratorComponent.cs</name>
+  </compound>
+  <compound refid="_input_component_8cs" kind="file"><name>InputComponent.cs</name>
+  </compound>
+  <compound refid="_movement_component_8cs" kind="file"><name>MovementComponent.cs</name>
+  </compound>
+  <compound refid="_movement_player_component_8cs" kind="file"><name>MovementPlayerComponent.cs</name>
+  </compound>
+  <compound refid="_shoot_component_8cs" kind="file"><name>ShootComponent.cs</name>
+  </compound>
+  <compound refid="_ecs_startup_8cs" kind="file"><name>EcsStartup.cs</name>
+  </compound>
+  <compound refid="_game_data_8cs" kind="file"><name>GameData.cs</name>
+  </compound>
+  <compound refid="_service_8cs" kind="file"><name>Service.cs</name>
+  </compound>
+  <compound refid="_score_service_8cs" kind="file"><name>ScoreService.cs</name>
+  </compound>
+  <compound refid="_shoot_point_8cs" kind="file"><name>ShootPoint.cs</name>
+  </compound>
+  <compound refid="_delay_system_8cs" kind="file"><name>DelaySystem.cs</name>
+  </compound>
+  <compound refid="_collision_bullet_event_8cs" kind="file"><name>CollisionBulletEvent.cs</name>
+  </compound>
+  <compound refid="_collision_player_event_8cs" kind="file"><name>CollisionPlayerEvent.cs</name>
+  </compound>
+  <compound refid="_destroy_entity_event_system_8cs" kind="file"><name>DestroyEntityEventSystem.cs</name>
+  </compound>
+  <compound refid="_hit_event_system_8cs" kind="file"><name>HitEventSystem.cs</name>
+  </compound>
+  <compound refid="_generator_system_8cs" kind="file"><name>GeneratorSystem.cs</name>
+  </compound>
+  <compound refid="_input_system_8cs" kind="file"><name>InputSystem.cs</name>
+  </compound>
+  <compound refid="_movement_player_system_8cs" kind="file"><name>MovementPlayerSystem.cs</name>
+  </compound>
+  <compound refid="_movement_system_8cs" kind="file"><name>MovementSystem.cs</name>
+  </compound>
+  <compound refid="_shoot_player_system_8cs" kind="file"><name>ShootPlayerSystem.cs</name>
+  </compound>
+  <compound refid="_shoot_system_8cs" kind="file"><name>ShootSystem.cs</name>
+  </compound>
+  <compound refid="_bullet_8cs" kind="file"><name>Bullet.cs</name>
+  </compound>
+  <compound refid="_destroy_object_8cs" kind="file"><name>DestroyObject.cs</name>
+  </compound>
+  <compound refid="_enemy_ship_8cs" kind="file"><name>EnemyShip.cs</name>
+  </compound>
+  <compound refid="_generator_8cs" kind="file"><name>Generator.cs</name>
+  </compound>
+  <compound refid="_level_props_8cs" kind="file"><name>LevelProps.cs</name>
+  </compound>
+  <compound refid="_mono_entity_8cs" kind="file"><name>MonoEntity.cs</name>
+  </compound>
+  <compound refid="_physics2_d_emitter_8cs" kind="file"><name>Physics2DEmitter.cs</name>
+  </compound>
+  <compound refid="_player_8cs" kind="file"><name>Player.cs</name>
+  </compound>
+  <compound refid="dir_ea8949aef1c385a3b145878e153b0b0a" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets</name>
+  </compound>
+  <compound refid="dir_d70d3c2b6d2c259ee7feb17f57bd6201" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/CollisionsEvents</name>
+  </compound>
+  <compound refid="dir_50063cb91ea2ef2048a727c8b4f01bef" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_ace1a07dc147663041a8506477905596" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events</name>
+  </compound>
+  <compound refid="dir_2a3a7815bfaed77f7b4ae7d79b6bf39c" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems</name>
+  </compound>
+  <compound refid="dir_8a496d04e302a690f20628ff70a06c0c" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Flags</name>
+  </compound>
+  <compound refid="dir_022b4188097e05f50425581325275736" kind="dir"><name>D:/MAKC</name>
+  </compound>
+  <compound refid="dir_6d348e849901f95f81dc13a45469e5dd" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master</name>
+  </compound>
+  <compound refid="dir_ef33944e499a2eb83f5d19ccb2ca4398" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts</name>
+  </compound>
+  <compound refid="dir_622d90aea9faa032a975ad49fcb1178e" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services</name>
+  </compound>
+  <compound refid="dir_0f8d2c185f02ef6f941d2e1779e8f40e" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures</name>
+  </compound>
+  <compound refid="dir_fbe34e60f1159d1389b554c4c559cf06" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems</name>
+  </compound>
+  <compound refid="dir_7ded8dc7e864797de57ae507c5cdf22b" kind="dir"><name>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents</name>
+  </compound>
+  <compound refid="dir_0754b96216c5f45b38fd2959f90346e7" kind="dir"><name>D:/MAKC/UnityProjetcs</name>
+  </compound>
+</doxygenindex>

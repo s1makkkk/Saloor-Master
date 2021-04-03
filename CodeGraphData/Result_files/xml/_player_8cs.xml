@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_player_8cs" kind="file">
+    <compoundname>Player.cs</compoundname>
+    <innerclass refid="class_player" prot="public">Player</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ECS;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Leopotam.Ecs;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_player" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_player" kindref="compound">Player</ref><sp/>:<sp/><ref refid="class_mono_entity" kindref="compound">MonoEntity</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Movement&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="11" refid="class_player_1aea3feea42eb3f90364cd3454df79b57b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_player_1aea3feea42eb3f90364cd3454df79b57b" kindref="member">Speed</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Shoot&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="14" refid="class_player_1a9ca881f72817e958c33ea0da934345c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_player_1a9ca881f72817e958c33ea0da934345c3" kindref="member">bullet</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_player_1ae57376d0095735b013fcbd2a90e0d4d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_player_1ae57376d0095735b013fcbd2a90e0d4d7" kindref="member">Damage</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_player_1a4bd6db8b889d6c49718a7451af9b4e65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Transform[]<sp/><ref refid="class_player_1a4bd6db8b889d6c49718a7451af9b4e65" kindref="member">Points</ref>;</highlight></codeline>
+<codeline lineno="17" refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" kindref="member">Entity</ref><sp/>=<sp/>EcsStartup.World.NewEntity();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_input_component" kindref="compound">ECS.Components.InputComponent</ref>&gt;();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><ref refid="struct_e_c_s_1_1_components_1_1_movement_player_component" kindref="compound">ECS.Components.MovementPlayerComponent</ref><sp/>movement<sp/>=<sp/>ref<sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_movement_player_component" kindref="compound">ECS.Components.MovementPlayerComponent</ref>&gt;();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>movement.self<sp/>=<sp/>transform;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>movement.Speed<sp/>=<sp/><ref refid="class_player_1aea3feea42eb3f90364cd3454df79b57b" kindref="member">Speed</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><ref refid="struct_e_c_s_1_1_components_1_1_shoot_component" kindref="compound">ECS.Components.ShootComponent</ref><sp/>shootComponent<sp/>=<sp/>ref<sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_shoot_component" kindref="compound">ECS.Components.ShootComponent</ref>&gt;();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shootComponent.Damage<sp/>=<sp/><ref refid="class_player_1ae57376d0095735b013fcbd2a90e0d4d7" kindref="member">Damage</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shootComponent.Point<sp/>=<sp/><ref refid="class_player_1aa902ef4197c2ffba8ca3cbc2665c3409" kindref="member">ConvertToPoints</ref>(<ref refid="class_player_1a4bd6db8b889d6c49718a7451af9b4e65" kindref="member">Points</ref>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shootComponent.Prefab<sp/>=<sp/><ref refid="class_player_1a9ca881f72817e958c33ea0da934345c3" kindref="member">bullet</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_flags_1_1_player_flag" kindref="compound">ECS.Components.Flags.PlayerFlag</ref>&gt;();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34" refid="class_player_1aa902ef4197c2ffba8ca3cbc2665c3409" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="struct_shoot_point" kindref="compound">ShootPoint</ref>[]<sp/><ref refid="class_player_1aa902ef4197c2ffba8ca3cbc2665c3409" kindref="member">ConvertToPoints</ref>(Transform[]<sp/>t)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_shoot_point" kindref="compound">ShootPoint</ref>[]<sp/>shootPoint<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_shoot_point" kindref="compound">ShootPoint</ref>[t.Length];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>t.Length;<sp/>i++)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shootPoint[i]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_shoot_point" kindref="compound">ShootPoint</ref>(t[i],<sp/>Vector2.up);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shootPoint;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Player.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_e_c_s_1_1_components" kind="namespace">
+    <compoundname>ECS::Components</compoundname>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_sender_component" prot="public">ECS::Components::SenderComponent</innerclass>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_delay_component" prot="public">ECS::Components::DelayComponent</innerclass>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_generator_component" prot="public">ECS::Components::GeneratorComponent</innerclass>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_input_component" prot="public">ECS::Components::InputComponent</innerclass>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_movement_component" prot="public">ECS::Components::MovementComponent</innerclass>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_movement_player_component" prot="public">ECS::Components::MovementPlayerComponent</innerclass>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_shoot_component" prot="public">ECS::Components::ShootComponent</innerclass>
+    <innernamespace refid="namespace_e_c_s_1_1_components_1_1_events">ECS::Components::Events</innernamespace>
+    <innernamespace refid="namespace_e_c_s_1_1_components_1_1_flags">ECS::Components::Flags</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

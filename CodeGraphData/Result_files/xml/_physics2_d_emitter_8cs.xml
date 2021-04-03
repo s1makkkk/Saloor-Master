@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_physics2_d_emitter_8cs" kind="file">
+    <compoundname>Physics2DEmitter.cs</compoundname>
+    <innerclass refid="class_physics2_d_emitter" prot="public">Physics2DEmitter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Leopotam.Ecs;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_physics2_d_emitter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_physics2_d_emitter" kindref="compound">Physics2DEmitter</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_physics2_d_emitter_1a549035aa9125e4f1c4bef23c87fd1f71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_mono_entity" kindref="compound">MonoEntity</ref><sp/><ref refid="class_physics2_d_emitter_1a549035aa9125e4f1c4bef23c87fd1f71" kindref="member">monoEntity</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_physics2_d_emitter_1ab44a598b1d2514eb327bcc6b98325160" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics2_d_emitter_1ab44a598b1d2514eb327bcc6b98325160" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_physics2_d_emitter_1a549035aa9125e4f1c4bef23c87fd1f71" kindref="member">monoEntity</ref><sp/><sp/>=<sp/>GetComponent&lt;MonoEntity&gt;();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_physics2_d_emitter_1a263ef2b356a8479dfb446fbaaeb8e448" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics2_d_emitter_1a263ef2b356a8479dfb446fbaaeb8e448" kindref="member">OnCollisionEnter2D</ref>(Collision2D<sp/>collision)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event" kindref="compound">ECS.Components.Events.CollisionEnterEvent</ref><sp/>Event<sp/>=<sp/>ref<sp/>monoEntity.Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_collision_enter_event" kindref="compound">ECS.Components.Events.CollisionEnterEvent</ref>&gt;();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Event.Other<sp/>=<sp/>collision;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Event.Sender<sp/>=<sp/>gameObject;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Event.SenderEntity<sp/>=<sp/>monoEntity.Entity;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Event.OtherEntity<sp/>=<sp/>collision.gameObject.GetComponent&lt;<ref refid="class_mono_entity" kindref="compound">MonoEntity</ref>&gt;().Entity;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/Physics2DEmitter.cs"/>
+  </compounddef>
+</doxygen>

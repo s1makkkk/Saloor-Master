@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system" kind="class" prot="public">
+    <compoundname>ECS::Systems::Events::DestroyEntityEventSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEcsRunSystem</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system_1a2166d0be99dd6fc528e591f952ebeb2f" prot="private" static="no" mutable="no">
+        <type>readonly EcsWorld</type>
+        <definition>readonly EcsWorld ECS.Systems.Events.DestroyEntityEventSystem._world</definition>
+        <argsstring></argsstring>
+        <name>_world</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/DestroyEntityEventSystem.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/DestroyEntityEventSystem.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system_1a5a02b33c5b32b382e88a4780c6d166a0" prot="private" static="no" mutable="no">
+        <type>EcsFilter&lt; <ref refid="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event" kindref="compound">Components.Events.DestroyEntityEvent</ref> &gt;</type>
+        <definition>EcsFilter&lt;Components.Events.DestroyEntityEvent&gt; ECS.Systems.Events.DestroyEntityEventSystem.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/DestroyEntityEventSystem.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/DestroyEntityEventSystem.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system_1a1b1a0b2f774491764ea2d27da2fdb687" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IEcsRunSystem.</type>
+        <definition>void IEcsRunSystem. ECS.Systems.Events.DestroyEntityEventSystem.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/DestroyEntityEventSystem.cs" line="12" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/DestroyEntityEventSystem.cs" bodystart="12" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>IEcsRunSystem</label>
+      </node>
+      <node id="38">
+        <label>ECS.Systems.Events.DestroyEntityEventSystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>IEcsRunSystem</label>
+      </node>
+      <node id="40">
+        <label>ECS.Systems.Events.DestroyEntityEventSystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/DestroyEntityEventSystem.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/EventsSystems/DestroyEntityEventSystem.cs" bodystart="6" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system_1a2166d0be99dd6fc528e591f952ebeb2f" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::DestroyEntityEventSystem</scope><name>_world</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system_1a5a02b33c5b32b382e88a4780c6d166a0" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::DestroyEntityEventSystem</scope><name>filter</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_events_1_1_destroy_entity_event_system_1a1b1a0b2f774491764ea2d27da2fdb687" prot="private" virt="non-virtual"><scope>ECS::Systems::Events::DestroyEntityEventSystem</scope><name>Run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

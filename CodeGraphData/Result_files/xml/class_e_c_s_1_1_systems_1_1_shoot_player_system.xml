@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_e_c_s_1_1_systems_1_1_shoot_player_system" kind="class" prot="public">
+    <compoundname>ECS::Systems::ShootPlayerSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEcsRunSystem</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_shoot_player_system_1a69fd586fcd4e1aa2c40884afeb09d162" prot="private" static="no" mutable="no">
+        <type>readonly EcsWorld</type>
+        <definition>readonly EcsWorld ECS.Systems.ShootPlayerSystem._world</definition>
+        <argsstring></argsstring>
+        <name>_world</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootPlayerSystem.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootPlayerSystem.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_shoot_player_system_1a1d7b8296a6eb419c8d9b556f74f57653" prot="private" static="no" mutable="no">
+        <type>EcsFilter&lt; <ref refid="struct_e_c_s_1_1_components_1_1_input_component" kindref="compound">Components.InputComponent</ref>, <ref refid="struct_e_c_s_1_1_components_1_1_shoot_component" kindref="compound">Components.ShootComponent</ref> &gt;</type>
+        <definition>EcsFilter&lt;Components.InputComponent, Components.ShootComponent&gt; ECS.Systems.ShootPlayerSystem.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootPlayerSystem.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootPlayerSystem.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_e_c_s_1_1_systems_1_1_shoot_player_system_1ac021643f10b25260eb05852e155f658f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IEcsRunSystem.</type>
+        <definition>void IEcsRunSystem. ECS.Systems.ShootPlayerSystem.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootPlayerSystem.cs" line="12" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootPlayerSystem.cs" bodystart="12" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_e_c_s_1_1_systems_1_1_shoot_player_system_1afd49164014de6ceb47495e59080b56a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ECS.Systems.ShootPlayerSystem.Shoot</definition>
+        <argsstring>(ref Components.ShootComponent shootComponent)</argsstring>
+        <name>Shoot</name>
+        <param>
+          <type>ref <ref refid="struct_e_c_s_1_1_components_1_1_shoot_component" kindref="compound">Components.ShootComponent</ref></type>
+          <declname>shootComponent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootPlayerSystem.cs" line="31" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootPlayerSystem.cs" bodystart="31" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="152">
+        <label>IEcsRunSystem</label>
+      </node>
+      <node id="151">
+        <label>ECS.Systems.ShootPlayerSystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_shoot_player_system"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="154">
+        <label>IEcsRunSystem</label>
+      </node>
+      <node id="153">
+        <label>ECS.Systems.ShootPlayerSystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_shoot_player_system"/>
+        <childnode refid="154" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootPlayerSystem.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/ShootPlayerSystem.cs" bodystart="6" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_e_c_s_1_1_systems_1_1_shoot_player_system_1a69fd586fcd4e1aa2c40884afeb09d162" prot="private" virt="non-virtual"><scope>ECS::Systems::ShootPlayerSystem</scope><name>_world</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_shoot_player_system_1a1d7b8296a6eb419c8d9b556f74f57653" prot="private" virt="non-virtual"><scope>ECS::Systems::ShootPlayerSystem</scope><name>filter</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_shoot_player_system_1ac021643f10b25260eb05852e155f658f" prot="private" virt="non-virtual"><scope>ECS::Systems::ShootPlayerSystem</scope><name>Run</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_shoot_player_system_1afd49164014de6ceb47495e59080b56a8" prot="private" virt="non-virtual"><scope>ECS::Systems::ShootPlayerSystem</scope><name>Shoot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

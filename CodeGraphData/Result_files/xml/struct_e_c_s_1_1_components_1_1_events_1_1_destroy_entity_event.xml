@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event" kind="struct" prot="public">
+    <compoundname>ECS::Components::Events::DestroyEntityEvent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event_1a86b933dc66ad98fa64ab4ce8d6712979" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ECS.Components.Events.DestroyEntityEvent.gameObject</definition>
+        <argsstring></argsstring>
+        <name>gameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/DestroyEntityEvent.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/DestroyEntityEvent.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/DestroyEntityEvent.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/DestroyEntityEvent.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_destroy_entity_event_1a86b933dc66ad98fa64ab4ce8d6712979" prot="public" virt="non-virtual"><scope>ECS::Components::Events::DestroyEntityEvent</scope><name>gameObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

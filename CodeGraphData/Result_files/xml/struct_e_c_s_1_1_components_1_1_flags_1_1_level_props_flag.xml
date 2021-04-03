@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_flags_1_1_level_props_flag" kind="struct" prot="public">
+    <compoundname>ECS::Components::Flags::LevelPropsFlag</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEcsIgnoreInFilter</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="102">
+        <label>IEcsIgnoreInFilter</label>
+      </node>
+      <node id="101">
+        <label>ECS.Components.Flags.LevelPropsFlag</label>
+        <link refid="struct_e_c_s_1_1_components_1_1_flags_1_1_level_props_flag"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="104">
+        <label>IEcsIgnoreInFilter</label>
+      </node>
+      <node id="103">
+        <label>ECS.Components.Flags.LevelPropsFlag</label>
+        <link refid="struct_e_c_s_1_1_components_1_1_flags_1_1_level_props_flag"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Flags/Flags.cs" line="6" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Flags/Flags.cs" bodystart="6" bodyend="6"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

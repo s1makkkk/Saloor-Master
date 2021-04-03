@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_generator_component_8cs" kind="file">
+    <compoundname>GeneratorComponent.cs</compoundname>
+    <innerclass refid="struct_e_c_s_1_1_components_1_1_generator_component" prot="public">ECS::Components::GeneratorComponent</innerclass>
+    <innernamespace refid="namespace_e_c_s_1_1_components">ECS::Components</innernamespace>
+    <innernamespace refid="namespace_unity_engine">UnityEngine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ECS.Components</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="struct_e_c_s_1_1_components_1_1_generator_component" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_e_c_s_1_1_components_1_1_generator_component" kindref="compound">GeneratorComponent</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="struct_e_c_s_1_1_components_1_1_generator_component_1a8ea08230e66f65826cf828239b046321" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject[]<sp/><ref refid="struct_e_c_s_1_1_components_1_1_generator_component_1a8ea08230e66f65826cf828239b046321" kindref="member">LevelProps</ref>;</highlight></codeline>
+<codeline lineno="8" refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5eb55283da2fb12d0105f16dc1bcaf23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5eb55283da2fb12d0105f16dc1bcaf23" kindref="member">TimeDelay</ref>;</highlight></codeline>
+<codeline lineno="9" refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5761c206c069d6bb93388a0201247b02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5761c206c069d6bb93388a0201247b02" kindref="member">MinTime</ref>;</highlight></codeline>
+<codeline lineno="10" refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5cfc6decef73190d057b71b036bb0195" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_e_c_s_1_1_components_1_1_generator_component_1a5cfc6decef73190d057b71b036bb0195" kindref="member">Complexity</ref>;</highlight></codeline>
+<codeline lineno="11" refid="struct_e_c_s_1_1_components_1_1_generator_component_1a7d9657653df03b5fdee2badcdc585a51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="struct_e_c_s_1_1_components_1_1_generator_component_1a7d9657653df03b5fdee2badcdc585a51" kindref="member">Parrent</ref>;</highlight></codeline>
+<codeline lineno="12" refid="struct_e_c_s_1_1_components_1_1_generator_component_1a977d08c74a054d702b257437d6960c73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector2[]<sp/><ref refid="struct_e_c_s_1_1_components_1_1_generator_component_1a977d08c74a054d702b257437d6960c73" kindref="member">Points</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/GeneratorComponent.cs"/>
+  </compounddef>
+</doxygen>

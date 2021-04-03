@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_input_component" kind="struct" prot="public">
+    <compoundname>ECS::Components::InputComponent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_input_component_1afb75ee17fba08b6c769d2aa8b4f392c7" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 ECS.Components.InputComponent.Direction</definition>
+        <argsstring></argsstring>
+        <name>Direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/InputComponent.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/InputComponent.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_input_component_1a1bdc221356a8a82a90586933db8b0f06" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ECS.Components.InputComponent.isShoot</definition>
+        <argsstring></argsstring>
+        <name>isShoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/InputComponent.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/InputComponent.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/InputComponent.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/InputComponent.cs" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="struct_e_c_s_1_1_components_1_1_input_component_1afb75ee17fba08b6c769d2aa8b4f392c7" prot="public" virt="non-virtual"><scope>ECS::Components::InputComponent</scope><name>Direction</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_input_component_1a1bdc221356a8a82a90586933db8b0f06" prot="public" virt="non-virtual"><scope>ECS::Components::InputComponent</scope><name>isShoot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_default_prefs" kind="class" prot="public">
+    <compoundname>DefaultPrefs</compoundname>
+    <basecompoundref refid="interface_i_score_prefs" prot="public" virt="non-virtual">IScorePrefs</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_default_prefs_1ad2dfdd8e231b3f828e4e0a36732d7ca2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DefaultPrefs.Load</definition>
+        <argsstring>(ScoreService service)</argsstring>
+        <name>Load</name>
+        <reimplements refid="interface_i_score_prefs_1a76161c01efc91418ad977391a0ef2d30">Load</reimplements>
+        <param>
+          <type><ref refid="class_score_service" kindref="compound">ScoreService</ref></type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services/ScoreService.cs" line="31" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services/ScoreService.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_prefs_1af2b58d3f30fea70b24d16d5fd3c291c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DefaultPrefs.Save</definition>
+        <argsstring>(ScoreService service)</argsstring>
+        <name>Save</name>
+        <reimplements refid="interface_i_score_prefs_1ade5d7d3527ed3ab9adcf75ef7585b0e2">Save</reimplements>
+        <param>
+          <type><ref refid="class_score_service" kindref="compound">ScoreService</ref></type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services/ScoreService.cs" line="36" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services/ScoreService.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="26">
+        <label>DefaultPrefs</label>
+        <link refid="class_default_prefs"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>IScorePrefs</label>
+        <link refid="interface_i_score_prefs"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="28">
+        <label>DefaultPrefs</label>
+        <link refid="class_default_prefs"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>IScorePrefs</label>
+        <link refid="interface_i_score_prefs"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services/ScoreService.cs" line="30" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services/ScoreService.cs" bodystart="29" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_default_prefs_1ad2dfdd8e231b3f828e4e0a36732d7ca2" prot="public" virt="non-virtual"><scope>DefaultPrefs</scope><name>Load</name></member>
+      <member refid="class_default_prefs_1af2b58d3f30fea70b24d16d5fd3c291c9" prot="public" virt="non-virtual"><scope>DefaultPrefs</scope><name>Save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

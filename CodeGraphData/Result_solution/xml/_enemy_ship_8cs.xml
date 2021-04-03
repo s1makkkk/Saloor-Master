@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_enemy_ship_8cs" kind="file">
+    <compoundname>EnemyShip.cs</compoundname>
+    <innerclass refid="class_enemy_ship" prot="public">EnemyShip</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ECS;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Leopotam.Ecs;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_enemy_ship" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_enemy_ship" kindref="compound">EnemyShip</ref><sp/>:<sp/><ref refid="class_mono_entity" kindref="compound">MonoEntity</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Shoot&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="12" refid="class_enemy_ship_1a6e9b6b693f59a42881884f5fd414f70d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_enemy_ship_1a6e9b6b693f59a42881884f5fd414f70d" kindref="member">bullet</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_enemy_ship_1aace76ebc13f99ade7cd715b8e050e81a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_enemy_ship_1aace76ebc13f99ade7cd715b8e050e81a" kindref="member">Damage</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_enemy_ship_1aaeb388a93f0d2b70d74b60f49ca988a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="struct_shoot_point" kindref="compound">ShootPoint</ref>[]<sp/><ref refid="class_enemy_ship_1aaeb388a93f0d2b70d74b60f49ca988a9" kindref="member">Points</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_enemy_ship_1adc231dfdd96b8aabadddda16445c4510" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_enemy_ship_1adc231dfdd96b8aabadddda16445c4510" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_mono_entity_1a145bc98d70e86639c7225bdc685e9a45" kindref="member">Entity</ref><sp/>=<sp/>EcsStartup.World.NewEntity();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><ref refid="struct_e_c_s_1_1_components_1_1_movement_component" kindref="compound">ECS.Components.MovementComponent</ref><sp/>movement<sp/>=<sp/>ref<sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_movement_component" kindref="compound">ECS.Components.MovementComponent</ref>&gt;();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>movement.Direction<sp/>=<sp/>Vector2.down;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>movement.self<sp/>=<sp/>transform;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>movement.speed<sp/>=<sp/>Random.Range(0.4f,<sp/>2);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>movement.RotationOffset<sp/>=<sp/>Random.Range(-20,<sp/>20);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><ref refid="struct_e_c_s_1_1_components_1_1_shoot_component" kindref="compound">ECS.Components.ShootComponent</ref><sp/>shootComponent<sp/>=<sp/>ref<sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_shoot_component" kindref="compound">ECS.Components.ShootComponent</ref>&gt;();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shootComponent.Damage<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shootComponent.Point<sp/>=<sp/><ref refid="class_enemy_ship_1aaeb388a93f0d2b70d74b60f49ca988a9" kindref="member">Points</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shootComponent.Prefab<sp/>=<sp/><ref refid="class_enemy_ship_1a6e9b6b693f59a42881884f5fd414f70d" kindref="member">bullet</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><ref refid="struct_e_c_s_1_1_components_1_1_delay_component" kindref="compound">ECS.Components.DelayComponent</ref><sp/>Delay<sp/>=<sp/>ref<sp/>Entity.Get&lt;<ref refid="struct_e_c_s_1_1_components_1_1_delay_component" kindref="compound">ECS.Components.DelayComponent</ref>&gt;();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Delay.TimeDelay<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Delay.Timer<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/UnityComponents/EnemyShip.cs"/>
+  </compounddef>
+</doxygen>

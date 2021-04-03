@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_i_score_prefs" kind="interface" prot="public">
+    <compoundname>IScorePrefs</compoundname>
+    <derivedcompoundref refid="class_default_prefs" prot="public" virt="non-virtual">DefaultPrefs</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_score_prefs_1a76161c01efc91418ad977391a0ef2d30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IScorePrefs.Load</definition>
+        <argsstring>(ScoreService service)</argsstring>
+        <name>Load</name>
+        <reimplementedby refid="class_default_prefs_1ad2dfdd8e231b3f828e4e0a36732d7ca2">Load</reimplementedby>
+        <param>
+          <type><ref refid="class_score_service" kindref="compound">ScoreService</ref></type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services/ScoreService.cs" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_score_prefs_1ade5d7d3527ed3ab9adcf75ef7585b0e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IScorePrefs.Save</definition>
+        <argsstring>(ScoreService service)</argsstring>
+        <name>Save</name>
+        <reimplementedby refid="class_default_prefs_1af2b58d3f30fea70b24d16d5fd3c291c9">Save</reimplementedby>
+        <param>
+          <type><ref refid="class_score_service" kindref="compound">ScoreService</ref></type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services/ScoreService.cs" line="26" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="93">
+        <label>DefaultPrefs</label>
+        <link refid="class_default_prefs"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>IScorePrefs</label>
+        <link refid="interface_i_score_prefs"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services/ScoreService.cs" line="24" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Services/ScoreService.cs" bodystart="23" bodyend="28"/>
+    <listofallmembers>
+      <member refid="interface_i_score_prefs_1a76161c01efc91418ad977391a0ef2d30" prot="public" virt="non-virtual"><scope>IScorePrefs</scope><name>Load</name></member>
+      <member refid="interface_i_score_prefs_1ade5d7d3527ed3ab9adcf75ef7585b0e2" prot="public" virt="non-virtual"><scope>IScorePrefs</scope><name>Save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

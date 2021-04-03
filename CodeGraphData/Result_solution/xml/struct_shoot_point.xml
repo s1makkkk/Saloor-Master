@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_shoot_point" kind="struct" prot="public">
+    <compoundname>ShootPoint</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_shoot_point_1a1c111322449727e8ecc7048f7e0798e6" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform ShootPoint.transform</definition>
+        <argsstring></argsstring>
+        <name>transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures/ShootPoint.cs" line="13" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures/ShootPoint.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="struct_shoot_point_1a32ce3e7a1687383976ca86900f1e0b98" compoundref="_shoot_point_8cs" startline="6" endline="10">ShootPoint</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_shoot_point_1aab5f8887083ac6e755d78e80ff47e39c" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 ShootPoint.Direction</definition>
+        <argsstring></argsstring>
+        <name>Direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures/ShootPoint.cs" line="14" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures/ShootPoint.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="struct_shoot_point_1a32ce3e7a1687383976ca86900f1e0b98" compoundref="_shoot_point_8cs" startline="6" endline="10">ShootPoint</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_shoot_point_1a32ce3e7a1687383976ca86900f1e0b98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ShootPoint.ShootPoint</definition>
+        <argsstring>(Transform t, Vector2 dir)</argsstring>
+        <name>ShootPoint</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures/ShootPoint.cs" line="6" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures/ShootPoint.cs" bodystart="6" bodyend="10"/>
+        <references refid="struct_shoot_point_1aab5f8887083ac6e755d78e80ff47e39c" compoundref="_shoot_point_8cs" startline="14">Direction</references>
+        <references refid="struct_shoot_point_1a1c111322449727e8ecc7048f7e0798e6" compoundref="_shoot_point_8cs" startline="13">transform</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures/ShootPoint.cs" line="5" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Structures/ShootPoint.cs" bodystart="4" bodyend="15"/>
+    <listofallmembers>
+      <member refid="struct_shoot_point_1aab5f8887083ac6e755d78e80ff47e39c" prot="public" virt="non-virtual"><scope>ShootPoint</scope><name>Direction</name></member>
+      <member refid="struct_shoot_point_1a32ce3e7a1687383976ca86900f1e0b98" prot="public" virt="non-virtual"><scope>ShootPoint</scope><name>ShootPoint</name></member>
+      <member refid="struct_shoot_point_1a1c111322449727e8ecc7048f7e0798e6" prot="public" virt="non-virtual"><scope>ShootPoint</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

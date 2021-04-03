@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ace1a07dc147663041a8506477905596" kind="dir">
+    <compoundname>D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events</compoundname>
+    <innerfile refid="_collision_enter_event_8cs">CollisionEnterEvent.cs</innerfile>
+    <innerfile refid="_destroy_entity_event_8cs">DestroyEntityEvent.cs</innerfile>
+    <innerfile refid="_hit_event_8cs">HitEvent.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/"/>
+  </compounddef>
+</doxygen>

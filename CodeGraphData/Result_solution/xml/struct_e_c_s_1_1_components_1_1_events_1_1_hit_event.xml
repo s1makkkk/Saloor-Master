@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event" kind="struct" prot="public">
+    <compoundname>ECS::Components::Events::HitEvent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a6782a932bd68d81a09b90b50cf07a10a" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ECS.Components.Events.HitEvent.Hit</definition>
+        <argsstring></argsstring>
+        <name>Hit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/HitEvent.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/HitEvent.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a2c7ecdce8b527909b32a0a30082c9ed5" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ECS.Components.Events.HitEvent.Particle</definition>
+        <argsstring></argsstring>
+        <name>Particle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/HitEvent.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/HitEvent.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a86c59e56b450f60f02a2eb3a8a46ecd6" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 ECS.Components.Events.HitEvent.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/HitEvent.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/HitEvent.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/HitEvent.cs" line="6" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/Events/HitEvent.cs" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a6782a932bd68d81a09b90b50cf07a10a" prot="public" virt="non-virtual"><scope>ECS::Components::Events::HitEvent</scope><name>Hit</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a2c7ecdce8b527909b32a0a30082c9ed5" prot="public" virt="non-virtual"><scope>ECS::Components::Events::HitEvent</scope><name>Particle</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_events_1_1_hit_event_1a86c59e56b450f60f02a2eb3a8a46ecd6" prot="public" virt="non-virtual"><scope>ECS::Components::Events::HitEvent</scope><name>Position</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

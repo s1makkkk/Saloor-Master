@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_c_s_1_1_components_1_1_movement_player_component" kind="struct" prot="public">
+    <compoundname>ECS::Components::MovementPlayerComponent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_movement_player_component_1ad71c67566d616afb92febf0932b6439c" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform ECS.Components.MovementPlayerComponent.self</definition>
+        <argsstring></argsstring>
+        <name>self</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementPlayerComponent.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementPlayerComponent.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_s_1_1_components_1_1_movement_player_component_1aa26b45df26b7c3adbcab2a742cbcba9b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ECS.Components.MovementPlayerComponent.Speed</definition>
+        <argsstring></argsstring>
+        <name>Speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementPlayerComponent.cs" line="8" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementPlayerComponent.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementPlayerComponent.cs" line="6" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Components/MovementPlayerComponent.cs" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="struct_e_c_s_1_1_components_1_1_movement_player_component_1ad71c67566d616afb92febf0932b6439c" prot="public" virt="non-virtual"><scope>ECS::Components::MovementPlayerComponent</scope><name>self</name></member>
+      <member refid="struct_e_c_s_1_1_components_1_1_movement_player_component_1aa26b45df26b7c3adbcab2a742cbcba9b" prot="public" virt="non-virtual"><scope>ECS::Components::MovementPlayerComponent</scope><name>Speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_e_c_s_1_1_systems_1_1_delay_system" kind="class" prot="public">
+    <compoundname>ECS::Systems::DelaySystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEcsRunSystem</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_delay_system_1ab463fafab675364a5c49db39d64e4dcc" prot="private" static="no" mutable="no">
+        <type>readonly EcsWorld</type>
+        <definition>readonly EcsWorld ECS.Systems.DelaySystem._world</definition>
+        <argsstring></argsstring>
+        <name>_world</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/DelaySystem.cs" line="9" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/DelaySystem.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_c_s_1_1_systems_1_1_delay_system_1afbca717c37f752a5fe69a94933bf6beb" prot="private" static="no" mutable="no">
+        <type>EcsFilter&lt; <ref refid="struct_e_c_s_1_1_components_1_1_delay_component" kindref="compound">Components.DelayComponent</ref> &gt;</type>
+        <definition>EcsFilter&lt;Components.DelayComponent&gt; ECS.Systems.DelaySystem.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/DelaySystem.cs" line="10" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/DelaySystem.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_e_c_s_1_1_systems_1_1_delay_system_1a9887cf59919c5f7f114427f3f2a5ca95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IEcsRunSystem.</type>
+        <definition>void IEcsRunSystem. ECS.Systems.DelaySystem.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/DelaySystem.cs" line="12" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/DelaySystem.cs" bodystart="12" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>IEcsRunSystem</label>
+      </node>
+      <node id="32">
+        <label>ECS.Systems.DelaySystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_delay_system"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>IEcsRunSystem</label>
+      </node>
+      <node id="34">
+        <label>ECS.Systems.DelaySystem</label>
+        <link refid="class_e_c_s_1_1_systems_1_1_delay_system"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/DelaySystem.cs" line="7" column="1" bodyfile="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/DelaySystem.cs" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_e_c_s_1_1_systems_1_1_delay_system_1ab463fafab675364a5c49db39d64e4dcc" prot="private" virt="non-virtual"><scope>ECS::Systems::DelaySystem</scope><name>_world</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_delay_system_1afbca717c37f752a5fe69a94933bf6beb" prot="private" virt="non-virtual"><scope>ECS::Systems::DelaySystem</scope><name>filter</name></member>
+      <member refid="class_e_c_s_1_1_systems_1_1_delay_system_1a9887cf59919c5f7f114427f3f2a5ca95" prot="private" virt="non-virtual"><scope>ECS::Systems::DelaySystem</scope><name>Run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

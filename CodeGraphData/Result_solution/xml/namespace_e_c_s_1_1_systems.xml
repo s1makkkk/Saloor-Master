@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_e_c_s_1_1_systems" kind="namespace">
+    <compoundname>ECS::Systems</compoundname>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_delay_system" prot="public">ECS::Systems::DelaySystem</innerclass>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_generator_system" prot="public">ECS::Systems::GeneratorSystem</innerclass>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_input_system" prot="public">ECS::Systems::InputSystem</innerclass>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_movement_player_system" prot="public">ECS::Systems::MovementPlayerSystem</innerclass>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_movement_system" prot="public">ECS::Systems::MovementSystem</innerclass>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_shoot_player_system" prot="public">ECS::Systems::ShootPlayerSystem</innerclass>
+    <innerclass refid="class_e_c_s_1_1_systems_1_1_shoot_system" prot="public">ECS::Systems::ShootSystem</innerclass>
+    <innernamespace refid="namespace_e_c_s_1_1_systems_1_1_events">ECS::Systems::Events</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/MAKC/UnityProjetcs/Saloor-Master/Assets/Scripts/Systems/DelaySystem.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>
