@@ -2,28 +2,27 @@ using Leopotam.Ecs;
 using LeopotamGroup.Globals;
 using UnityEngine;
 using ECS;
+using ECS.Systems.Events;
+using Leopotam.Ecs.Ui.Systems;
 
-sealed class EcsStartup : MonoBehaviour
+internal class EcsStartup : MonoBehaviour
 {
-    public static EcsWorld World;
-    [SerializeField] Leopotam.Ecs.Ui.Systems.EcsUiEmitter _uiEmitter = null;
+    public static EcsWorld World; 
+
     /// <summary>
-    /// TODO: Need refactoringgg
+    /// TODO: Need refactoring!!
     /// </summary>
+    
+    [SerializeField] private Leopotam.Ecs.Ui.Systems.EcsUiEmitter uiEmitter = null;
+    //Dependeies:
+    private ScoreService scoreService = new ScoreService();
     public GameData gameData;
 
-
-    private ScoreService scoreService = new ScoreService();
-
-    private EcsSystems SystemsUpdate;
-    private EcsSystems SystemsFixedUpdate;
-
-
-
+    private EcsSystems systemsUpdate;
+    private EcsSystems systemsFixedUpdate;
 
     void Awake()
     {
-        // void can be switched to IEnumerator for support coroutines.
 
         scoreService.Init();
         Service<ScoreService>.Set(scoreService);
@@ -32,32 +31,37 @@ sealed class EcsStartup : MonoBehaviour
 
 
         World = new EcsWorld();
-        SystemsUpdate = new EcsSystems(World);
-        SystemsFixedUpdate = new EcsSystems(World);
-
+        systemsUpdate = new EcsSystems(World);
+        systemsFixedUpdate = new EcsSystems(World);
 #if UNITY_EDITOR
        Leopotam.Ecs.UnityIntegration.EcsWorldObserver.Create(World);
-       Leopotam.Ecs.UnityIntegration.EcsSystemsObserver.Create(SystemsUpdate);
-       Leopotam.Ecs.UnityIntegration.EcsSystemsObserver.Create(SystemsFixedUpdate);
+       Leopotam.Ecs.UnityIntegration.EcsSystemsObserver.Create(systemsUpdate);
+       Leopotam.Ecs.UnityIntegration.EcsSystemsObserver.Create(systemsFixedUpdate);
 #endif
-        SystemsUpdate.Add(new ECS.Systems.InputSystem());
-        SystemsUpdate.Add(new ECS.Systems.DelaySystem());
-        SystemsUpdate.Add(new ECS.Systems.MovementPlayerSystem());
-        SystemsUpdate.Add(new ECS.Systems.MovementSystem());
-        SystemsUpdate.Add(new ECS.Systems.ShootPlayerSystem());
-        SystemsUpdate.Add(new ECS.Systems.GeneratorSystem());
-        SystemsUpdate.Add(new ECS.Systems.ShootSystem());
-        SystemsUpdate.Add(new ECS.Systems.ScoreSystem());
-        SystemsUpdate.Add(new ECS.Systems.ScoreOutSystem());
-       
+        
+        //Init Systems:
+
+        //Update Systems:
+        systemsUpdate.Add(new ECS.Systems.InputSystem());
+        systemsUpdate.Add(new ECS.Systems.DelaySystem());
+        systemsUpdate.Add(new ECS.Systems.MovementPlayerSystem());
+        systemsUpdate.Add(new ECS.Systems.MovementSystem());
+        systemsUpdate.Add(new ECS.Systems.ShootPlayerSystem());
+        systemsUpdate.Add(new ECS.Systems.GeneratorSystem());
+        systemsUpdate.Add(new ECS.Systems.ShootSystem());
+        systemsUpdate.Add(new ECS.Systems.ScoreSystem());
+        systemsUpdate.Add(new ECS.Systems.ScoreOutSystem());
+
         
         
         //Events:
-        SystemsUpdate.Add(new ECS.Systems.Events.CollisionPlayerEvent());
-        SystemsUpdate.Add(new ECS.Systems.Events.CollisionBulletEvent());
-        SystemsUpdate.Add(new ECS.Systems.Events.HitEventSystem());
-        SystemsUpdate.Add(new ECS.Systems.Events.GameLoseEventSystem());
-        SystemsUpdate.Add(new ECS.Systems.Events.DestroyEntityEventSystem());
+        systemsUpdate.Add(new ECS.Systems.Events.CollisionPlayerEvent());
+        systemsUpdate.Add(new ECS.Systems.Events.CollisionBulletEvent());
+        systemsUpdate.Add(new ECS.Systems.Events.HitEventSystem());
+        systemsUpdate.Add(new ECS.Systems.Events.RestartGameEventSystem());
+        systemsUpdate.Add(new ECS.Systems.Events.DestroyEntityEventSystem());
+        
+        //Events UI:
 
         // register one-frame components (order is important), for example:
         // .OneFrame<TestComponent1> ()
@@ -68,11 +72,12 @@ sealed class EcsStartup : MonoBehaviour
         // .Inject (new NavMeshSupport ())
 
 
-        SystemsUpdate.Inject(gameData);
-        SystemsUpdate.Inject(scoreService);
-        SystemsUpdate.Init();
+        systemsUpdate.Inject(gameData);
+        systemsUpdate.Inject(scoreService);
+        systemsUpdate.InjectUi(uiEmitter);
+        systemsUpdate.Init();
 
-        SystemsFixedUpdate.Init();
+        systemsFixedUpdate.Init();
     }
 
 
@@ -80,22 +85,22 @@ sealed class EcsStartup : MonoBehaviour
 
     void Update()
     {
-        SystemsUpdate?.Run();
+        systemsUpdate?.Run();
     }
 
     void OnDestroy()
     {
 
 
-        if (SystemsUpdate != null)
+        if (systemsUpdate != null)
         {
-            SystemsUpdate.Destroy();
-            SystemsUpdate = null;
+            systemsUpdate.Destroy();
+            systemsUpdate = null;
         }
-        if (SystemsFixedUpdate != null)
+        if (systemsFixedUpdate != null)
         {
-            SystemsFixedUpdate.Destroy();
-            SystemsFixedUpdate = null;
+            systemsFixedUpdate.Destroy();
+            systemsFixedUpdate = null;
         }
         World.Destroy();
         World = null;

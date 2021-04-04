@@ -15,24 +15,24 @@ namespace ECS.Systems
         void IEcsRunSystem.Run()
         {
 
-            Vector2 Dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+            Vector2 dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
             //Vector2 Dir = Input.acceleration;
-            bool MouseDown = false;
+            bool onMouseDown;
             if(Input.GetMouseButtonDown(0))
             {
-                MouseDown = true;
+                onMouseDown = true;
             }
             else
             {
-                MouseDown = false;
+                onMouseDown = false;
             }
 
             foreach (var i in filter)
             {
                 ref Components.InputComponent input = ref filter.Get1(i);
-                input.Direction = Dir;
-                input.isShoot = MouseDown;
-                input.PressAnyKey = MouseDown;
+                input.Direction = dir;
+                input.IsShoot = onMouseDown;
+                input.PressAnyKey = onMouseDown;
             }
         }
     }

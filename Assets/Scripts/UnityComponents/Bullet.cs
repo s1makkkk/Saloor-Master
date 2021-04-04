@@ -31,7 +31,6 @@ public class Bullet : MonoEntity
 
         Entity.Get<ECS.Components.SenderComponent>().Sender = Sender;
     }
-    //TODO: Здесь срочно нжен рефакторинг.
     public void SetDirection(Vector2 dir)
     {
         Direction = dir;

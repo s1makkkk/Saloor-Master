@@ -17,7 +17,7 @@ namespace ECS.Systems
                 ref Components.InputComponent input = ref filter.Get1(i);
                 ref Components.ShootComponent shootComponent = ref filter.Get2(i);
 
-                if(input.isShoot)
+                if(input.IsShoot)
                 {
                     Debug.Log("Shoot");
                     Shoot(ref shootComponent);   
@@ -32,6 +32,7 @@ namespace ECS.Systems
         {
             for (int i = 0; i < shootComponent.Point.Length; i++)
             {
+               // Debug.Log("");
                 GameObject bullet = GameObject.Instantiate(shootComponent.Prefab,
                     shootComponent.Point[i].transform.position,Quaternion.identity);
                 bullet.GetComponent<Bullet>().Sender = "Player";

@@ -42,7 +42,7 @@ namespace ECS.Systems.Events
         private void DestroyEntity(GameObject gameObject, EcsEntity Entity)
         {
             ref ECS.Components.Events.DestroyEntityEvent Event = ref Entity.Get<ECS.Components.Events.DestroyEntityEvent>();
-            Event.gameObject = gameObject;
+            Event.Obj = gameObject;
             Object.Instantiate(gameData.ParticleEffect, gameObject.transform.position, Quaternion.identity);
         }
 

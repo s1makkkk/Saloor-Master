@@ -13,7 +13,7 @@ namespace ECS.Systems.Events
         {
             foreach (var i in filter)
             { 
-                Object.Destroy(filter.Get1(i).gameObject);
+                Object.Destroy(filter.Get1(i).Obj);
                 filter.GetEntity(i).Destroy();
             }
 

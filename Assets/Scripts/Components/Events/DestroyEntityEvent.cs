@@ -5,6 +5,6 @@ namespace ECS.Components.Events
 
     struct DestroyEntityEvent
     {
-        public GameObject gameObject;
+        public GameObject Obj;
     }
 }

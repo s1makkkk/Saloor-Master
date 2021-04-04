@@ -3,7 +3,6 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
-      <Path>Assets</Path>
       <Path>Library/PackageCache/com.leopotam.ecs-ui@e80f81f4f1</Path>
       <Path>Library/PackageCache/com.leopotam.ecs-unityintegration@127d6a8f02</Path>
       <Path>Library/PackageCache/com.leopotam.ecs@7b80d2d637</Path>

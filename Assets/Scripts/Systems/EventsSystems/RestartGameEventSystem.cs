@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 namespace ECS.Systems.Events
 {
-    sealed class GameLoseEventSystem : IEcsRunSystem
+    sealed class RestartGameEventSystem : IEcsRunSystem
     {
         readonly EcsWorld _world = null;
         readonly GameData data;
@@ -17,23 +17,11 @@ namespace ECS.Systems.Events
             {
                 if(Input.anyKeyDown)
                 {
-                    UpdateResult(scoreService);
+                    scoreService.UpdateResult();
                     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
                 }
             }
 
-        }
-
-
-        private void UpdateResult(ScoreService Service)
-        {
-            Service.Result = 0;
-            if (Service.BestResult < Service.Result)
-            {
-                Service.BestResult = Service.Result;
-            }
-
-            Service.Save();
         }
     }
 }

@@ -7,17 +7,30 @@ public class ScoreService
     public float BestResult = 0;
     public float Result = 0;
 
-    private IScorePrefs Prefs = new DefaultPrefs();
-
-    public void Save()
-    {
-        Prefs.Save(this);
-    }
 
     public void Init()
     {
         Prefs.Load(this);
     }
+
+    public void UpdateResult()
+    {
+        if (BestResult < Result)
+        {
+            BestResult = Result;
+        }
+        Save();
+        Result = 0;
+    }
+
+    private IScorePrefs Prefs = new DefaultPrefs();
+
+    private void Save()
+    {
+        Prefs.Save(this);
+    }
+
+
 }
 
 

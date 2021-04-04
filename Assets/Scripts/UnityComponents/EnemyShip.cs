@@ -32,6 +32,8 @@ public class EnemyShip : MonoEntity
         ref ECS.Components.DelayComponent Delay = ref Entity.Get<ECS.Components.DelayComponent>();
         Delay.TimeDelay = 3;
         Delay.Timer = 0;
+
+        Entity.Get<ECS.Components.Flags.LevelPropsFlag>();
     }
 
 }
