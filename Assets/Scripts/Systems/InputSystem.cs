@@ -15,8 +15,8 @@ namespace ECS.Systems
         void IEcsRunSystem.Run()
         {
 
-            Vector2 dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-            //Vector2 Dir = Input.acceleration;
+            //Vector2 dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+            Vector2 dir = Input.acceleration;
             bool onMouseDown;
             if(Input.GetMouseButtonDown(0))
             {
