@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 760703943130107431}
   - component: {fileID: 95118139}
   - component: {fileID: 2304387663392643628}
-  - component: {fileID: 377889941898844181}
+  - component: {fileID: 5089842269906481071}
+  - component: {fileID: 4337144890342475412}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -169,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44dd0341cc062ad419327c879dc23e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &377889941898844181
+--- !u!114 &5089842269906481071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,15 +179,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 377889941898844180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5ce45ef211aa2045943964d319e7061, type: 3}
+  m_Script: {fileID: 11500000, guid: 863c7f7460b2b49abb4fa9a7ff9cb180, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 10
-  bullet: {fileID: 975256845743923379, guid: 1a749e22af9d4774f940a612ce4bb5b0, type: 3}
-  Damage: 20
-  Points:
-  - {fileID: 8210282408595225809}
-  - {fileID: 2258730195323475510}
+  convertMode: 0
+--- !u!114 &4337144890342475412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377889941898844180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d724c75dc288977438367e9f07351e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value:
+    self: {fileID: 377889941898844183}
+    Speed: 10
 --- !u!1 &4278494878716071249
 GameObject:
   m_ObjectHideFlags: 0

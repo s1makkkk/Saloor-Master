@@ -4,6 +4,7 @@ using UnityEngine;
 using ECS;
 using ECS.Systems.Events;
 using Leopotam.Ecs.Ui.Systems;
+using Voody.UniLeo;
 
 internal class EcsStartup : MonoBehaviour
 {
@@ -38,9 +39,9 @@ internal class EcsStartup : MonoBehaviour
        Leopotam.Ecs.UnityIntegration.EcsSystemsObserver.Create(systemsUpdate);
        Leopotam.Ecs.UnityIntegration.EcsSystemsObserver.Create(systemsFixedUpdate);
 #endif
-        
-        //Init Systems:
 
+        //Init Systems:
+        systemsUpdate.ConvertScene();
         //Update Systems:
         systemsUpdate.Add(new ECS.Systems.InputSystem());
         systemsUpdate.Add(new ECS.Systems.DelaySystem());
